@@ -1,0 +1,526 @@
+register-width: 8
+registers:
+  DIRA:
+    address: 00
+    7-0:
+      name: DIRA<7:0>
+      desc: Pin direction
+      values:
+        0: Input
+        1: Output
+    reset: 00
+    desc: Pin directions for port A
+    access: RW
+  DIRB:
+    address: 01
+    7-0:
+      name: DIRB<7:0>
+      desc: Pin directions
+      values:
+        0: Input
+        1: Output
+    reset: 00
+    desc: Pin directions for port A
+    access: RW
+
+  IPOLA:
+    address: 02
+    7-0:
+      name: IPOLA<7:0>
+      desc: Input polarity
+      values:
+        0: Normal
+        1: Inverted
+    reset: 00
+    desc: Input polarity for port A
+    access: RW
+  IPOLB:
+    address: 03
+    7-0:
+      name: IPOLB<7:0>
+      desc: Input polarity
+      values:
+        0: Normal
+        1: Inverted
+    reset: 00
+    desc: Input polarity for port B
+    access: RW
+  
+  INTENA:
+    address: 04
+    7-0:
+      name: INTENA<7:0>
+      desc: Interrupt enable
+      values:
+        0: Disabled
+        1: Enabled
+    reset: 00
+    desc: Interrupt enable for port A
+    access: RW
+  INTENB:
+    address: 05
+    7-0:
+      name: INTENB<7:0>
+      desc: Interrupt Enabled
+      values:
+        0: Disabled
+        1: Enabled
+    reset: 00
+    desc: Interrupt enable for port B
+    access: RW
+
+  CTRL:
+    address: 0A
+    7-6:
+      name: 0
+      desc: Reserved
+    5:
+      name: AID
+      desc: Automatic address pointer increment disable
+      values:
+        0: Address auto increment enabled
+        1: Address auto increment disabled
+    4-3:
+      name: 0
+      desc: Reserved
+    2:
+      name: ITOD
+      desc: Interrupt pin open-drain
+      values:
+        0: Push-pull interrupt output
+        1: Open-drain interrupt output (ITP ignored, active-low)
+    1:
+      name: ITP
+      desc: Interrupt output polarity, ignored if ITOD=1
+      values:
+        0: Active-low
+        1: Active-high
+    0:
+      name: 0
+      desc: Reserved
+    reset: 0
+    desc: Configuration register
+    access: RW
+  
+  PULLA:
+    address: 0C
+    7-0:
+      name: PULLA<7:0>
+      desc: Pull-up enable
+      values:
+        0: Pull-up disabled
+        1: Pull-up enabled
+    reset: 00
+    desc: Pull-up enable register for port A
+    access: RW
+  PULLB:
+    address: 0D
+    7-0:
+      name: PULLB<7:0>
+      desc: Pull-up enable
+      values:
+        0: Pull-up disabled
+        1: Pull-up enabled
+    reset: 00
+    desc: Pull-up enable register for port B
+    access: RW
+  
+  INTFA:
+    address: 0E
+    7-0:
+      name: INTFA<7:0>
+      desc: Interrupt flag
+      values:
+        0: No interrupt event for the pin
+        1: Pin triggered the interrupt
+    reset: 00
+    desc: Interrupt flag for port A. Set bit indicates the pin triggering the interrupt. Set on interrupt event, remains unchanged until interrupt is cleared.
+    access: R
+  INTFB:
+    address: 0F
+    7-0:
+      name: INTFB<7:0>
+      desc: Interrupt flag
+      values:
+        0: No interrupt event for the pin
+        1: Pin triggered the interrupt
+    reset: 00
+    desc: Interrupt flag for port B. Set bit indicates the pin triggering the interrupt. Set on interrupt event, remains unchanged until interrupt is cleared.
+    access: R
+
+  INTCAPA:
+    address: 10
+    7-0:
+      name: ICP<7:0>
+      desc: Pin state at the time of the last interrupt event
+      values:
+        0: Low
+        1: High
+    reset: 00
+    desc: State of port A at the time of the last interrupt event. Remains unchanged until interrupt is cleared.
+    access: R
+  INTCAPB:
+    address: 11
+    7-0:
+      name: ICP<7:0>
+      desc: Pin state at the time of the last interrupt event
+      values:
+        0: Low
+        1: High
+    reset: 00
+    desc: State of port B at the time of the last interrupt event. Remains unchanged until interrupt is cleared.
+    access: R
+
+  GPINA:
+    address: 12
+    7-0:
+      name: GPINA<7:0>
+      desc: Pin state
+      values:
+        0: Low
+        1: High
+    reset: 00
+    desc: State of pins on port A, write modifies GPOUTA
+    access: RW
+  GPINB:
+    address: 13
+    7-0:
+      name: GPINB<7:0>
+      desc: Pin state
+      values:
+        0: Low
+        1: High
+    reset: 00
+    desc: State of pins on port B, write modifies GPOUTB
+    access: RW
+
+  GPOUTA:
+    address: 14
+    7-0:
+      name: GPOUTA<7:0>
+      desc: Output state
+      values:
+        0: Low
+        1: High
+    reset: 00
+    desc: Output state of pins on port A. Writing changes the state of pins configured as output, reading returns the output state, not necessarily the logic level on the pin.
+    access: RW
+  GPOUTB:
+    address: 15
+    7-0:
+      name: GPOUTB<7:0>
+      desc: Output state
+      values:
+        0: Low
+        1: High
+    reset: 00
+    desc: Output state of pins on port B. Writing changes the state of pins configured as output, reading returns the output state, not necessarily the logic level on the pin.
+    access: RW
+
+  GPOUTSETA:
+    address: 16
+    7-0:
+      name: GPOUTSETA<7:0>
+      desc: Set pin to high
+      values:
+        0: No action
+        1: Set pin to high level
+    reset: 00
+    desc: Set the output level high for pins on port A corresponding to the set bits in the register.
+    access: W
+  GPOUTSETB:
+    address: 17
+    7-0:
+      name: GPOUTSETB<7:0>
+      desc: Set pin to high
+      values:
+        0: No action
+        1: Set pin to high level
+    reset: 00
+    desc: Set the output level high for pins on port B corresponding to the set bits in the register.
+    access: W
+
+  GPOUTCLRA:
+    address: 18
+    7-0:
+      name: GPOUTCLRA<7:0>
+      desc: Set pin to low
+      values:
+        0: No action
+        1: Set pin to low level
+    reset: 00
+    desc: Set the output level low for pins on port A corresponding to the set bits in the register.
+    access: W
+  GPOUTCLRB:
+    address: 19
+    7-0:
+      name: GPOUTCLRB<7:0>
+      desc: Set pin to low
+      values:
+        0: No action
+        1: Set pin to low level
+    reset: 00
+    desc: Set the output level low for pins on port B corresponding to the set bits in the register.
+    access: W
+
+  GPMASKA:
+    address: 1A
+    7-0:
+      name: GPMASKA<7:0>
+      desc: Mask pin for output
+      values:
+        0: Pin will not react to changes in GPOUTA
+        1: Output will change according to GPOUTA
+    reset: FF
+    desc: Pins corresponding to cleared bits will not react to changes in GPOUTA, and will retain their last set state. Only applies to pins configured as output.
+    access: RW
+  GPMASKB:
+    address: 1B
+    7-0:
+      name: GPMASKB<7:0>
+      desc: Mask pin for output
+      values:
+        0: Pin will not react to changes in GPOUTB
+        1: Output will change according to GPOUTB
+    reset: FF
+    desc: Pins corresponding to cleared bits will not react to changes in GPOUTB, and will retain their last set state. Only applies to pins configured as output.
+    access: RW
+
+  GPODA:
+    address: 1C
+    7-0:
+      name: GPODA<7:0>
+      desc: Set pin as open drain
+      values:
+        0: Push-pull output
+        1: Open-drain output
+    reset: 00
+    desc: Set output drive to open-drain, thus 0 in GPOUTA will drive the output low, 1 will make it high-z.
+    access: RW
+  GPODB:
+    address: 1D
+    7-0:
+      name: GPODB<7:0>
+      desc: Set pin as open drain
+      values:
+        0: Push-pull output
+        1: Open-drain output
+    reset: 00
+    desc: Set output drive to open-drain, thus 0 in GPOUTB will drive the output low, 1 will make it high-z.
+    access: RW
+
+  DIRSETA:
+    address: 1E
+    7-0:
+      name: DIRSETA<7:0>
+      desc: Set direction to output
+      values:
+        0: No action
+        1: Set pin to output
+    reset: 00
+    desc: Set the direction to output for pins on port A corresponding to the set bits in the register.
+    access: W
+  DIRSETB:
+    address: 1F
+    7-0:
+      name: DIRSETB<7:0>
+      desc: Set pin to output
+      values:
+        0: No action
+        1: Set pin to output
+    reset: 00
+    desc: Set the direction to output for pins on port B corresponding to the set bits in the register.
+    access: W
+
+  DIRCLRA:
+    address: 20
+    7-0:
+      name: DIRCLRA<7:0>
+      desc: Set pin to input
+      values:
+        0: No action
+        1: Set pin to input
+    reset: 00
+    desc: Set the direction to input for pins on port A corresponding to the set bits in the register.
+    access: W
+  DIRCLRB:
+    address: 21
+    7-0:
+      name: DIRCLRB<7:0>
+      desc: Set pin to input
+      values:
+        0: No action
+        1: Set pin to input
+    reset: 00
+    desc: Set the direction to input for pins on port B corresponding to the set bits in the register.
+    access: W
+
+  AIN0H:
+    address: 30
+    7-4:
+      name: 0000
+      desc: Unused, reads as 0
+    3-0:
+      name: AIN0<11:8>
+      desc: Bits 11-8 of AIN0 result.
+    reset: 00
+    desc: High byte of AIN0 conversion result.
+    access: R
+  AIN0L:
+    address: 31
+    7-0:
+      name: AIN0<7:0>
+      desc: Bits 7-0 of AIN0 result.
+    reset: 00
+    desc: Low byte of AIN0 conversion result.
+    access: R
+
+  AIN1H:
+    address: 32
+    7-4:
+      name: 0000
+      desc: Unused, reads as 0
+    3-0:
+      name: AIN1<11:8>
+      desc: Bits 11-8 of AIN1 result.
+    reset: 00
+    desc: High byte of AIN1 conversion result.
+    access: R
+  AIN1L:
+    address: 33
+    7-0:
+      name: AIN1<7:0>
+      desc: Bits 7-0 of AIN1 result.
+    reset: 00
+    desc: Low byte of AIN1 conversion result.
+    access: R
+    
+  AIN2H:
+    address: 34
+    7-4:
+      name: 0000
+      desc: Unused, reads as 0
+    3-0:
+      name: AIN2<11:8>
+      desc: Bits 11-8 of AIN2 result.
+    reset: 00
+    desc: High byte of AIN2 conversion result.
+    access: R
+  AIN2L:
+    address: 35
+    7-0:
+      name: AIN2<7:0>
+      desc: Bits 7-0 of AIN2 result.
+    reset: 00
+    desc: Low byte of AIN2 conversion result.
+    access: R
+
+  AIN3H:
+    address: 36
+    7-4:
+      name: 0000
+      desc: Unused, reads as 0
+    3-0:
+      name: AIN3<11:8>
+      desc: Bits 11-8 of AIN3 result.
+    reset: 00
+    desc: High byte of AIN3 conversion result.
+    access: R
+  AIN3L:
+    address: 37
+    7-0:
+      name: AIN3<7:0>
+      desc: Bits 7-0 of AIN3 result.
+    reset: 00
+    desc: Low byte of AIN3 conversion result.
+    access: R
+
+  AIN4H:
+    address: 38
+    7-4:
+      name: 0000
+      desc: Unused, reads as 0
+    3-0:
+      name: AIN4<11:8>
+      desc: Bits 11-8 of AIN4 result.
+    reset: 00
+    desc: High byte of AIN4 conversion result.
+    access: R
+  AIN4L:
+    address: 39
+    7-0:
+      name: AIN4<7:0>
+      desc: Bits 7-0 of AIN4 result.
+    reset: 00
+    desc: Low byte of AIN4 conversion result.
+    access: R
+
+  AIN5H:
+    address: 3A
+    7-4:
+      name: 0000
+      desc: Unused, reads as 0
+    3-0:
+      name: AIN5<11:8>
+      desc: Bits 11-8 of AIN5 result.
+    reset: 00
+    desc: High byte of AIN5 conversion result.
+    access: R
+  AIN5L:
+    address: 3B
+    7-0:
+      name: AIN5<7:0>
+      desc: Bits 7-0 of AIN5 result.
+    reset: 00
+    desc: Low byte of AIN5 conversion result.
+    access: R
+
+  AIN6H:
+    address: 3C
+    7-4:
+      name: 0000
+      desc: Unused, reads as 0
+    3-0:
+      name: AIN6<11:8>
+      desc: Bits 11-8 of AIN6 result.
+    reset: 00
+    desc: High byte of AIN6 conversion result.
+    access: R
+  AIN6L:
+    address: 3D
+    7-0:
+      name: AIN6<7:0>
+      desc: Bits 7-0 of AIN6 result.
+    reset: 00
+    desc: Low byte of AIN6 conversion result.
+    access: R
+
+  AIN7H:
+    address: 3E
+    7-4:
+      name: 0000
+      desc: Unused, reads as 0
+    3-0:
+      name: AIN7<11:8>
+      desc: Bits 11-8 of AIN7 result.
+    reset: 00
+    desc: High byte of AIN7 conversion result.
+    access: R
+  AIN7L:
+    address: 3F
+    7-0:
+      name: AIN7<7:0>
+      desc: Bits 7-0 of AIN7 result.
+    reset: 00
+    desc: Low byte of AIN7 conversion result.
+    access: R
+
+
+  EEPROM:
+    address: 80-FF
+    7-0:
+      name: EEPROM data
+      desc: EEPROM data bytes
+    reset: ??
+    desc: 128 bytes of EEPROM memory
+    access: RW
