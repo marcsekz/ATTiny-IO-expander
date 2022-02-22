@@ -1,0 +1,62 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/lord/DEV/Solar/canbrd-pico/attiny_ioexpander/attiny_ioexpander.X'
+make -f nbproject/Makefile-default.mk SUBPROJECTS= .build-conf
+make[1]: Entering directory '/home/lord/DEV/Solar/canbrd-pico/attiny_ioexpander/attiny_ioexpander.X'
+ 
+make  -f nbproject/Makefile-default.mk dist/default/production/attiny_ioexpander.X.production.hex
+ 
+make[2]: Entering directory '/home/lord/DEV/Solar/canbrd-pico/attiny_ioexpander/attiny_ioexpander.X'
+ 
+mkdir -p "build/default/production" 
+rm -f  build/default/production/main.o.d 
+rm -f  build/default/production/main.o 
+"/opt/microchip/xc8/v2.35/bin/xc8-cc"  -mcpu=ATtiny1627 -c  -x c -D__ATtiny1627__   -mdfp="/opt/microchip/mplabx/v6.00/packs/Microchip/ATtiny_DFP/2.7.128/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -fno-common -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=default    -gdwarf-3     -MD -MP -MF "build/default/production/main.o.d" -MT "build/default/production/main.o.d" -MT build/default/production/main.o -o build/default/production/main.o main.c 
+mkdir -p "build/default/production/mcc_generated_files/system/src" 
+rm -f  build/default/production/mcc_generated_files/system/src/clock.o.d 
+rm -f  build/default/production/mcc_generated_files/system/src/clock.o 
+"/opt/microchip/xc8/v2.35/bin/xc8-cc"  -mcpu=ATtiny1627 -c  -x c -D__ATtiny1627__   -mdfp="/opt/microchip/mplabx/v6.00/packs/Microchip/ATtiny_DFP/2.7.128/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -fno-common -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=default    -gdwarf-3     -MD -MP -MF "build/default/production/mcc_generated_files/system/src/clock.o.d" -MT "build/default/production/mcc_generated_files/system/src/clock.o.d" -MT build/default/production/mcc_generated_files/system/src/clock.o -o build/default/production/mcc_generated_files/system/src/clock.o mcc_generated_files/system/src/clock.c 
+ 
+mkdir -p "build/default/production/mcc_generated_files/system/src" 
+rm -f  build/default/production/mcc_generated_files/system/src/pins.o.d 
+rm -f  build/default/production/mcc_generated_files/system/src/pins.o 
+"/opt/microchip/xc8/v2.35/bin/xc8-cc"  -mcpu=ATtiny1627 -c  -x c -D__ATtiny1627__   -mdfp="/opt/microchip/mplabx/v6.00/packs/Microchip/ATtiny_DFP/2.7.128/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -fno-common -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=default    -gdwarf-3     -MD -MP -MF "build/default/production/mcc_generated_files/system/src/pins.o.d" -MT "build/default/production/mcc_generated_files/system/src/pins.o.d" -MT build/default/production/mcc_generated_files/system/src/pins.o -o build/default/production/mcc_generated_files/system/src/pins.o mcc_generated_files/system/src/pins.c 
+mkdir -p "build/default/production/mcc_generated_files/nvm/src" 
+rm -f  build/default/production/mcc_generated_files/nvm/src/nvm.o.d 
+rm -f  build/default/production/mcc_generated_files/nvm/src/nvm.o 
+"/opt/microchip/xc8/v2.35/bin/xc8-cc"  -mcpu=ATtiny1627 -c  -x c -D__ATtiny1627__   -mdfp="/opt/microchip/mplabx/v6.00/packs/Microchip/ATtiny_DFP/2.7.128/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -fno-common -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=default    -gdwarf-3     -MD -MP -MF "build/default/production/mcc_generated_files/nvm/src/nvm.o.d" -MT "build/default/production/mcc_generated_files/nvm/src/nvm.o.d" -MT build/default/production/mcc_generated_files/nvm/src/nvm.o -o build/default/production/mcc_generated_files/nvm/src/nvm.o mcc_generated_files/nvm/src/nvm.c 
+mkdir -p "build/default/production/mcc_generated_files/adc/src" 
+rm -f  build/default/production/mcc_generated_files/adc/src/adc0.o.d 
+rm -f  build/default/production/mcc_generated_files/adc/src/adc0.o 
+"/opt/microchip/xc8/v2.35/bin/xc8-cc"  -mcpu=ATtiny1627 -c  -x c -D__ATtiny1627__   -mdfp="/opt/microchip/mplabx/v6.00/packs/Microchip/ATtiny_DFP/2.7.128/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -fno-common -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=default    -gdwarf-3     -MD -MP -MF "build/default/production/mcc_generated_files/adc/src/adc0.o.d" -MT "build/default/production/mcc_generated_files/adc/src/adc0.o.d" -MT build/default/production/mcc_generated_files/adc/src/adc0.o -o build/default/production/mcc_generated_files/adc/src/adc0.o mcc_generated_files/adc/src/adc0.c 
+mkdir -p "build/default/production/mcc_generated_files/vref/src" 
+rm -f  build/default/production/mcc_generated_files/vref/src/vref.o.d 
+rm -f  build/default/production/mcc_generated_files/vref/src/vref.o 
+"/opt/microchip/xc8/v2.35/bin/xc8-cc"  -mcpu=ATtiny1627 -c  -x c -D__ATtiny1627__   -mdfp="/opt/microchip/mplabx/v6.00/packs/Microchip/ATtiny_DFP/2.7.128/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -fno-common -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=default    -gdwarf-3     -MD -MP -MF "build/default/production/mcc_generated_files/vref/src/vref.o.d" -MT "build/default/production/mcc_generated_files/vref/src/vref.o.d" -MT build/default/production/mcc_generated_files/vref/src/vref.o -o build/default/production/mcc_generated_files/vref/src/vref.o mcc_generated_files/vref/src/vref.c 
+mkdir -p "build/default/production/mcc_generated_files/system/src" 
+rm -f  build/default/production/mcc_generated_files/system/src/interrupt.o.d 
+rm -f  build/default/production/mcc_generated_files/system/src/interrupt.o 
+"/opt/microchip/xc8/v2.35/bin/xc8-cc"  -mcpu=ATtiny1627 -c  -x c -D__ATtiny1627__   -mdfp="/opt/microchip/mplabx/v6.00/packs/Microchip/ATtiny_DFP/2.7.128/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -fno-common -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=default    -gdwarf-3     -MD -MP -MF "build/default/production/mcc_generated_files/system/src/interrupt.o.d" -MT "build/default/production/mcc_generated_files/system/src/interrupt.o.d" -MT build/default/production/mcc_generated_files/system/src/interrupt.o -o build/default/production/mcc_generated_files/system/src/interrupt.o mcc_generated_files/system/src/interrupt.c 
+mkdir -p "build/default/production/mcc_generated_files/i2c_client/src" 
+rm -f  build/default/production/mcc_generated_files/i2c_client/src/twi0.o.d 
+rm -f  build/default/production/mcc_generated_files/i2c_client/src/twi0.o 
+"/opt/microchip/xc8/v2.35/bin/xc8-cc"  -mcpu=ATtiny1627 -c  -x c -D__ATtiny1627__   -mdfp="/opt/microchip/mplabx/v6.00/packs/Microchip/ATtiny_DFP/2.7.128/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -fno-common -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=default    -gdwarf-3     -MD -MP -MF "build/default/production/mcc_generated_files/i2c_client/src/twi0.o.d" -MT "build/default/production/mcc_generated_files/i2c_client/src/twi0.o.d" -MT build/default/production/mcc_generated_files/i2c_client/src/twi0.o -o build/default/production/mcc_generated_files/i2c_client/src/twi0.o mcc_generated_files/i2c_client/src/twi0.c 
+mkdir -p "build/default/production/mcc_generated_files/system/src" 
+rm -f  build/default/production/mcc_generated_files/system/src/protected_io.o.d 
+rm -f  build/default/production/mcc_generated_files/system/src/protected_io.o 
+"/opt/microchip/xc8/v2.35/bin/xc8-cc" -c  -mcpu=ATtiny1627  -x assembler-with-cpp -D__ATtiny1627__   -mdfp="/opt/microchip/mplabx/v6.00/packs/Microchip/ATtiny_DFP/2.7.128/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -fno-common -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=default  -gdwarf-3 -Wa,--defsym=__MPLAB_BUILD=1   -MD -MP -MF "build/default/production/mcc_generated_files/system/src/protected_io.o.d" -MT "build/default/production/mcc_generated_files/system/src/protected_io.o.d" -MT build/default/production/mcc_generated_files/system/src/protected_io.o -o build/default/production/mcc_generated_files/system/src/protected_io.o  mcc_generated_files/system/src/protected_io.S 
+mkdir -p "build/default/production/mcc_generated_files/system/src" 
+rm -f  build/default/production/mcc_generated_files/system/src/config_bits.o.d 
+rm -f  build/default/production/mcc_generated_files/system/src/config_bits.o 
+"/opt/microchip/xc8/v2.35/bin/xc8-cc"  -mcpu=ATtiny1627 -c  -x c -D__ATtiny1627__   -mdfp="/opt/microchip/mplabx/v6.00/packs/Microchip/ATtiny_DFP/2.7.128/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -fno-common -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=default    -gdwarf-3     -MD -MP -MF "build/default/production/mcc_generated_files/system/src/config_bits.o.d" -MT "build/default/production/mcc_generated_files/system/src/config_bits.o.d" -MT build/default/production/mcc_generated_files/system/src/config_bits.o -o build/default/production/mcc_generated_files/system/src/config_bits.o mcc_generated_files/system/src/config_bits.c 
+mkdir -p "build/default/production/mcc_generated_files/system/src" 
+rm -f  build/default/production/mcc_generated_files/system/src/system.o.d 
+rm -f  build/default/production/mcc_generated_files/system/src/system.o 
+"/opt/microchip/xc8/v2.35/bin/xc8-cc"  -mcpu=ATtiny1627 -c  -x c -D__ATtiny1627__   -mdfp="/opt/microchip/mplabx/v6.00/packs/Microchip/ATtiny_DFP/2.7.128/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -fno-common -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=default    -gdwarf-3     -MD -MP -MF "build/default/production/mcc_generated_files/system/src/system.o.d" -MT "build/default/production/mcc_generated_files/system/src/system.o.d" -MT build/default/production/mcc_generated_files/system/src/system.o -o build/default/production/mcc_generated_files/system/src/system.o mcc_generated_files/system/src/system.c 
+mkdir -p dist/default/production 
+"/opt/microchip/xc8/v2.35/bin/xc8-cc"  -mcpu=ATtiny1627 -Wl,-Map=dist/default/production/attiny_ioexpander.X.production.map  -DXPRJ_default=default  -Wl,--defsym=__MPLAB_BUILD=1   -mdfp="/opt/microchip/mplabx/v6.00/packs/Microchip/ATtiny_DFP/2.7.128/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -fno-common -funsigned-char -funsigned-bitfields -Wall -gdwarf-3      -Wl,--memorysummary,dist/default/production/memoryfile.xml -o dist/default/production/attiny_ioexpander.X.production.elf  -o dist/default/production/attiny_ioexpander.X.production.elf  build/default/production/main.o build/default/production/mcc_generated_files/system/src/clock.o build/default/production/mcc_generated_files/system/src/pins.o build/default/production/mcc_generated_files/nvm/src/nvm.o build/default/production/mcc_generated_files/adc/src/adc0.o build/default/production/mcc_generated_files/vref/src/vref.o build/default/production/mcc_generated_files/system/src/interrupt.o build/default/production/mcc_generated_files/i2c_client/src/twi0.o build/default/production/mcc_generated_files/system/src/protected_io.o build/default/production/mcc_generated_files/system/src/config_bits.o build/default/production/mcc_generated_files/system/src/system.o      -Wl,--start-group  -Wl,-lm -Wl,--end-group 
+"/opt/microchip/xc8/v2.35/bin"/avr-objcopy -O ihex "dist/default/production/attiny_ioexpander.X.production.elf" "dist/default/production/attiny_ioexpander.X.production.hex"
+make[2]: Leaving directory '/home/lord/DEV/Solar/canbrd-pico/attiny_ioexpander/attiny_ioexpander.X'
+ 
+make[1]: Leaving directory '/home/lord/DEV/Solar/canbrd-pico/attiny_ioexpander/attiny_ioexpander.X'
+make: Leaving directory '/home/lord/DEV/Solar/canbrd-pico/attiny_ioexpander/attiny_ioexpander.X'
+ 

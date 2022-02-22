@@ -1,0 +1,2785 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make SUBPROJECTS= CONF=default build
+# make[1]: Entering directory '/home/lord/DEV/Solar/canbrd-pico/attiny_ioexpander/attiny_ioexpander.X'
+make -f nbproject/Makefile-default.mk SUBPROJECTS= .build-conf
+# make[2]: Entering directory '/home/lord/DEV/Solar/canbrd-pico/attiny_ioexpander/attiny_ioexpander.X'
+make  -f nbproject/Makefile-default.mk dist/default/production/attiny_ioexpander.X.production.hex
+# make[3]: Entering directory '/home/lord/DEV/Solar/canbrd-pico/attiny_ioexpander/attiny_ioexpander.X'
+ 
+# GNU Make 4.2
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Fri Feb 11 11:28:37 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# makefile (from 'nbproject/Makefile-default.mk', line 85)
+FIXDEPS = fixDeps
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = ubuntu
+# automatic
+-*-command-variables-*- := CONF=default SUBPROJECTS=
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# makefile (from 'nbproject/Makefile-impl.mk', line 16)
+SUB_no = NO
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /home/lord/DEV/Solar/canbrd-pico/attiny_ioexpander/attiny_ioexpander.X
+# makefile
+SHELL = /bin/sh
+# makefile (from 'nbproject/Makefile-default.mk', line 23)
+RM = rm -f 
+# makefile (from 'nbproject/Makefile-default.mk', line 37)
+DEBUGGABLE_SUFFIX = elf
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# makefile (from 'nbproject/Makefile-default.mk', line 93)
+MP_PROCESSOR_OPTION = ATtiny1627
+# environment
+_ = /usr/share/code/code
+# makefile (from 'nbproject/Makefile-impl.mk', line 34)
+ALLCONFS = default 
+# makefile (from 'nbproject/Makefile-default.mk', line 64)
+POSSIBLE_DEPFILES = ${OBJECTDIR}/main.o.d ${OBJECTDIR}/mcc_generated_files/system/src/clock.o.d ${OBJECTDIR}/mcc_generated_files/system/src/pins.o.d ${OBJECTDIR}/mcc_generated_files/nvm/src/nvm.o.d ${OBJECTDIR}/mcc_generated_files/adc/src/adc0.o.d ${OBJECTDIR}/mcc_generated_files/vref/src/vref.o.d ${OBJECTDIR}/mcc_generated_files/system/src/interrupt.o.d ${OBJECTDIR}/mcc_generated_files/i2c_client/src/twi0.o.d ${OBJECTDIR}/mcc_generated_files/system/src/protected_io.o.d ${OBJECTDIR}/mcc_generated_files/system/src/config_bits.o.d ${OBJECTDIR}/mcc_generated_files/system/src/system.o.d
+# environment
+JOURNAL_STREAM = 8:71302
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# makefile (from 'nbproject/Makefile-local-default.mk', line 34)
+MP_LD_DIR = "/opt/microchip/xc8/v2.35/bin"
+# makefile (from 'nbproject/Makefile-local-default.mk', line 1)
+MAKEFILE_LIST :=  nbproject/Makefile-default.mk Makefile nbproject/Makefile-impl.mk nbproject/Makefile-variables.mk nbproject/Makefile-local-default.mk
+# automatic
+@F = $(notdir $@)
+# makefile (from 'nbproject/Makefile-default.mk', line 25)
+CP = cp 
+# environment
+IM_CONFIG_PHASE = 1
+# environment
+USERNAME = lord
+# environment
+MAKELEVEL := 3
+# environment
+MANDATORY_PATH = /usr/share/gconf/ubuntu.mandatory.path
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# makefile (from 'nbproject/Makefile-local-default.mk', line 37)
+DFP_DIR = /opt/microchip/mplabx/v6.00/packs/Microchip/ATtiny_DFP/2.7.128
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# makefile (from 'nbproject/Makefile-impl.mk', line 22)
+CLEAN_SUBPROJECTS_NO = 
+# makefile (from 'nbproject/Makefile-default.mk', line 275)
+DEPFILES = $(shell "${PATH_TO_IDE_BIN}"mplabwildcard ${POSSIBLE_DEPFILES})
+# makefile (from 'nbproject/Makefile-local-default.mk', line 28)
+MP_AR = "/opt/microchip/xc8/v2.35/bin/xc8-ar"
+# makefile (from 'nbproject/Makefile-impl.mk', line 23)
+CLEAN_SUBPROJECTS = ${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
+# command line
+CONF = default
+# makefile (from 'nbproject/Makefile-impl.mk', line 21)
+CLEAN_SUBPROJECTS_ = .clean-subprojects
+# environment
+MANAGERPID = 3829
+# makefile (from 'nbproject/Makefile-default.mk', line 60)
+SOURCEFILES_QUOTED_IF_SPACED = main.c mcc_generated_files/system/src/clock.c mcc_generated_files/system/src/pins.c mcc_generated_files/nvm/src/nvm.c mcc_generated_files/adc/src/adc0.c mcc_generated_files/vref/src/vref.c mcc_generated_files/system/src/interrupt.c mcc_generated_files/i2c_client/src/twi0.c mcc_generated_files/system/src/protected_io.S mcc_generated_files/system/src/config_bits.c mcc_generated_files/system/src/system.c
+# makefile (from 'nbproject/Makefile-default.mk', line 38)
+FINAL_IMAGE = ${DISTDIR}/attiny_ioexpander.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-97d31417-42ff-4e5b-8064-6a321d465f8b.sock
+# environment
+LC_NAME = hu_HU.UTF-8
+# environment
+VSCODE_CWD = /home/lord
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile (from 'nbproject/Makefile-local-default.mk', line 19)
+PATH := /opt/microchip/mplabx/v6.00/mplab_platform/platform/../mplab_ide/modules/../../bin/:/opt/microchip/mplabx/v6.00/mplab_platform/platform/../mplab_ide/modules/../../bin/:/home/lord/.latex-workshop-docker/bin:/home/lord/.local/bin:/home/lord/.cargo/bin:/home/lord/.local/bin:/home/lord/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# makefile (from 'nbproject/Makefile-default.mk', line 44)
+COMPARISON_BUILD = 
+# makefile (from 'Makefile', line 49)
+CCADMIN = CCadmin
+# makefile (from 'nbproject/Makefile-variables.mk', line 6)
+CND_BASEDIR = `pwd`
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# environment
+SESSION_MANAGER = local/CACTUS:@/tmp/.ICE-unix/4088,unix/CACTUS:/tmp/.ICE-unix/4088
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from 'nbproject/Makefile-default.mk', line 50)
+SUB_IMAGE_ADDRESS_COMMAND = 
+# makefile (from 'nbproject/Makefile-default.mk', line 74)
+CFLAGS = 
+# makefile (from 'nbproject/Makefile-local-default.mk', line 27)
+MP_LD = "/opt/microchip/xc8/v2.35/bin/xc8-cc"
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+VSCODE_LOG_STACK = false
+# environment
+VSCODE_CRASH_REPORTER_START_OPTIONS = {"companyName":"Microsoft","productName":"VSCode","submitURL":"appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=846cb815-19a2-4c2a-a073-a7c0cec17330&iid=846cb815-19a2-4c2a-a073-a7c0cec17330&sid=846cb815-19a2-4c2a-a073-a7c0cec17330","uploadToServer":true}
+# environment
+INVOCATION_ID = 8bfd587284314969a2c2ae1787272ed6
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# makefile (from 'nbproject/Makefile-local-default.mk', line 29)
+DEP_GEN = ${MP_JAVA_PATH}java -jar "/opt/microchip/mplabx/v6.00/mplab_platform/platform/../mplab_ide/modules/../../bin/extractobjectdependencies.jar"
+# makefile (from 'nbproject/Makefile-local-default.mk', line 35)
+MP_AR_DIR = "/opt/microchip/xc8/v2.35/bin"
+# environment
+LS_COLORS = 
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 24284
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :0
+# makefile (from 'nbproject/Makefile-impl.mk', line 30)
+DEFAULTCONF = default
+# makefile (from 'nbproject/Makefile-local-default.mk', line 23)
+MP_CC = "/opt/microchip/xc8/v2.35/bin/xc8-cc"
+# makefile (from 'nbproject/Makefile-variables.mk', line 10)
+CND_ARTIFACT_PATH_default = dist/default/production/attiny_ioexpander.X.production.hex
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /home/lord/DEV/Solar/canbrd-pico/attiny_ioexpander/attiny_ioexpander.X
+# makefile (from 'nbproject/Makefile-impl.mk', line 19)
+BUILD_SUBPROJECTS_NO = 
+# makefile (from 'nbproject/Makefile-impl.mk', line 20)
+BUILD_SUBPROJECTS = ${BUILD_SUBPROJECTS_${SUBPROJECTS}}
+# default
+.LOADED := 
+# makefile (from 'nbproject/Makefile-impl.mk', line 18)
+BUILD_SUBPROJECTS_ = .build-subprojects
+# environment
+SSH_AGENT_PID = 4020
+# makefile (from 'nbproject/Makefile-default.mk', line 67)
+OBJECTFILES = ${OBJECTDIR}/main.o ${OBJECTDIR}/mcc_generated_files/system/src/clock.o ${OBJECTDIR}/mcc_generated_files/system/src/pins.o ${OBJECTDIR}/mcc_generated_files/nvm/src/nvm.o ${OBJECTDIR}/mcc_generated_files/adc/src/adc0.o ${OBJECTDIR}/mcc_generated_files/vref/src/vref.o ${OBJECTDIR}/mcc_generated_files/system/src/interrupt.o ${OBJECTDIR}/mcc_generated_files/i2c_client/src/twi0.o ${OBJECTDIR}/mcc_generated_files/system/src/protected_io.o ${OBJECTDIR}/mcc_generated_files/system/src/config_bits.o ${OBJECTDIR}/mcc_generated_files/system/src/system.o
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+HOME = /home/lord
+# environment
+VSCODE_CODE_CACHE_PATH = /home/lord/.config/Code/CachedData/f80445acd5a3dadef24aa209168452a3d97cc326
+# environment
+LOGNAME = lord
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# makefile (from 'Makefile', line 50)
+RANLIB = ranlib
+# automatic
++F = $(notdir $+)
+# environment
+ZSH = /home/lord/.oh-my-zsh
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile (from 'nbproject/Makefile-default.mk', line 22)
+MKDIR = mkdir -p
+# makefile (from 'nbproject/Makefile-default.mk', line 57)
+DISTDIR = dist/${CND_CONF}/${IMAGE_TYPE}
+# environment
+KICAD_PATH = /usr/share/kicad
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := dist/default/production/attiny_ioexpander.X.production.hex
+# environment
+QT_IM_MODULE = ibus
+# environment
+SHLVL = 0
+# makefile (from 'nbproject/Makefile-default.mk', line 36)
+OUTPUT_SUFFIX = hex
+# environment
+MAKEOVERRIDES = ${-*-command-variables-*-}
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# makefile (from 'nbproject/Makefile-default.mk', line 75)
+ASFLAGS = 
+# default
+MAKE_VERSION := 4.2
+# environment
+USER = lord
+# environment
+LC_MONETARY = hu_HU.UTF-8
+# makefile
+.DEFAULT_GOAL := build
+# makefile (from 'nbproject/Makefile-local-default.mk', line 33)
+MP_AS_DIR = "/opt/microchip/xc8/v2.35/bin"
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# environment
+LIBVIRT_DEFAULT_URI = qemu:///system
+# makefile (from 'nbproject/Makefile-default.mk', line 35)
+IMAGE_TYPE = production
+# environment
+LESS = -R
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LC_TELEPHONE = hu_HU.UTF-8
+# default
+MAKE_COMMAND := make
+# environment
+OLDPWD = /home/lord
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-61d0e19f-1.64.2-main.sock
+# makefile (from 'nbproject/Makefile-local-default.mk', line 26)
+MP_AS = "/opt/microchip/xc8/v2.35/bin/xc8-cc"
+# makefile (from 'nbproject/Makefile-variables.mk', line 9)
+CND_ARTIFACT_NAME_default = attiny_ioexpander.X.production.hex
+# makefile
+MAKEFLAGS = pqrRw -- $(MAKEOVERRIDES)
+# environment
+MFLAGS = -pqrRw
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+BREAKPAD_DUMP_LOCATION = /home/lord/.config/Code/exthost Crash Reports
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# environment
+LC_PAPER = hu_HU.UTF-8
+# environment
+QT_ACCESSIBILITY = 1
+# environment
+DEFAULTS_PATH = /usr/share/gconf/ubuntu.default.path
+# makefile (from 'nbproject/Makefile-local-default.mk', line 21)
+MP_JAVA_PATH = "/opt/microchip/mplabx/v6.00/sys/java/zulu8.54.0.21-ca-fx-jre8.0.292-linux_x64/bin/"
+# makefile (from 'nbproject/Makefile-default.mk', line 24)
+MV = mv 
+# 'override' directive
+.SHELLSTATUS := 0
+# default
+MAKEFILES := 
+ 
+# makefile (from 'nbproject/Makefile-default.mk', line 63)
+OBJECTFILES_QUOTED_IF_SPACED = ${OBJECTDIR}/main.o ${OBJECTDIR}/mcc_generated_files/system/src/clock.o ${OBJECTDIR}/mcc_generated_files/system/src/pins.o ${OBJECTDIR}/mcc_generated_files/nvm/src/nvm.o ${OBJECTDIR}/mcc_generated_files/adc/src/adc0.o ${OBJECTDIR}/mcc_generated_files/vref/src/vref.o ${OBJECTDIR}/mcc_generated_files/system/src/interrupt.o ${OBJECTDIR}/mcc_generated_files/i2c_client/src/twi0.o ${OBJECTDIR}/mcc_generated_files/system/src/protected_io.o ${OBJECTDIR}/mcc_generated_files/system/src/config_bits.o ${OBJECTDIR}/mcc_generated_files/system/src/system.o
+# environment
+LC_NUMERIC = hu_HU.UTF-8
+# environment
+SUMO_HOME = /usr/share/sumo
+# automatic
+<F = $(notdir $<)
+# makefile (from 'nbproject/Makefile-default.mk', line 76)
+LDLIBSOPTIONS = 
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from 'nbproject/Makefile-impl.mk', line 27)
+PROJECTNAME = attiny_ioexpander.X
+# environment
+LC_MEASUREMENT = hu_HU.UTF-8
+# makefile (from 'nbproject/Makefile-default.mk', line 70)
+SOURCEFILES = main.c mcc_generated_files/system/src/clock.c mcc_generated_files/system/src/pins.c mcc_generated_files/nvm/src/nvm.c mcc_generated_files/adc/src/adc0.c mcc_generated_files/vref/src/vref.c mcc_generated_files/system/src/interrupt.c mcc_generated_files/i2c_client/src/twi0.c mcc_generated_files/system/src/protected_io.S mcc_generated_files/system/src/config_bits.c mcc_generated_files/system/src/system.c
+# environment
+PAGER = less
+# environment
+LC_ALL = C
+# makefile (from 'nbproject/Makefile-local-default.mk', line 17)
+PATH_TO_IDE_BIN = /opt/microchip/mplabx/v6.00/mplab_platform/platform/../mplab_ide/modules/../../bin/
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# makefile (from 'nbproject/Makefile-default.mk', line 54)
+OBJECTDIR = build/${CND_CONF}/${IMAGE_TYPE}
+# automatic
+^F = $(notdir $^)
+# makefile (from 'nbproject/Makefile-local-default.mk', line 30)
+MP_CC_DIR = "/opt/microchip/xc8/v2.35/bin"
+# environment
+ZEPHYR_BASE = /home/lord/SDKs/zephyrproject/zephyr
+# default
+SUFFIXES := 
+# makefile (from 'nbproject/Makefile-default.mk', line 28)
+CND_CONF = default
+# environment
+KIGITHUB = https://github.com/KiCad
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# makefile (from 'nbproject/Makefile-variables.mk', line 8)
+CND_ARTIFACT_DIR_default = dist/default/production
+# environment
+WINDOWPATH = 2
+# environment
+LC_TIME = hu_HU.UTF-8
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/local/include /usr/include
+# environment
+LC_IDENTIFICATION = hu_HU.UTF-8
+# command line
+SUBPROJECTS = 
+# default
+.RECIPEPREFIX := 
+# environment
+PICO_SDK_PATH = /home/lord/SDKs/pico/pico-sdk
+# environment
+LC_ADDRESS = hu_HU.UTF-8
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# environment
+LANG = C
+# makefile (from 'nbproject/Makefile-local-default.mk', line 22)
+OS_CURRENT = "$(shell uname -s)"
+# environment
+VSCODE_PID = 24284
+# variable set hash-table stats:
+# Load=177/1024=17%, Rehash=0, Collisions=40/383=10%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+
+# No files, no impossibilities in 0 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+nbproject/Makefile-local-default.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-02-11 00:08:42.808927294
+#  File has been updated.
+#  Successfully updated.
+
+build/default/production/mcc_generated_files/system/src/clock.o: mcc_generated_files/system/src/clock.c .generated_files/flags/default/912ed2c71e6c636789bfd1b68286d5b0ff45f72b .generated_files/flags/default/8a6cced3423c7cc9786b3956537aec778f432191
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-default.mk', line 165):
+	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/system/src" 
+	@${RM} ${OBJECTDIR}/mcc_generated_files/system/src/clock.o.d 
+	@${RM} ${OBJECTDIR}/mcc_generated_files/system/src/clock.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -fno-common -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/system/src/clock.o.d" -MT "${OBJECTDIR}/mcc_generated_files/system/src/clock.o.d" -MT ${OBJECTDIR}/mcc_generated_files/system/src/clock.o -o ${OBJECTDIR}/mcc_generated_files/system/src/clock.o mcc_generated_files/system/src/clock.c 
+	
+
+.build-subprojects:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+nbproject/Makefile-variables.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-02-11 00:08:42.808927294
+#  File has been updated.
+#  Successfully updated.
+
+build/default/production/mcc_generated_files/system/src/config_bits.o: mcc_generated_files/system/src/config_bits.c .generated_files/flags/default/e6a50aae4e799d2ed6fa7836bafacfcb7d1df270 .generated_files/flags/default/8a6cced3423c7cc9786b3956537aec778f432191
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-default.mk', line 207):
+	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/system/src" 
+	@${RM} ${OBJECTDIR}/mcc_generated_files/system/src/config_bits.o.d 
+	@${RM} ${OBJECTDIR}/mcc_generated_files/system/src/config_bits.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -fno-common -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/system/src/config_bits.o.d" -MT "${OBJECTDIR}/mcc_generated_files/system/src/config_bits.o.d" -MT ${OBJECTDIR}/mcc_generated_files/system/src/config_bits.o -o ${OBJECTDIR}/mcc_generated_files/system/src/config_bits.o mcc_generated_files/system/src/config_bits.c 
+	
+
+.clean-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.generated_files/flags/default/b3103078213ae00518a57641e166fcb2935c3742:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/default/production/mcc_generated_files/vref/src/vref.o: mcc_generated_files/vref/src/vref.c .generated_files/flags/default/736dab0cdcfac362e303bc05063ce71cae1c8dcd .generated_files/flags/default/8a6cced3423c7cc9786b3956537aec778f432191
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-default.mk', line 189):
+	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/vref/src" 
+	@${RM} ${OBJECTDIR}/mcc_generated_files/vref/src/vref.o.d 
+	@${RM} ${OBJECTDIR}/mcc_generated_files/vref/src/vref.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -fno-common -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/vref/src/vref.o.d" -MT "${OBJECTDIR}/mcc_generated_files/vref/src/vref.o.d" -MT ${OBJECTDIR}/mcc_generated_files/vref/src/vref.o -o ${OBJECTDIR}/mcc_generated_files/vref/src/vref.o mcc_generated_files/vref/src/vref.c 
+	
+
+# Not a target:
+mcc_generated_files/system/src/interrupt.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: .all-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.generated_files/flags/default/1a762e9a87697fdca8cc8d14f8d91e1ab34227ac:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.build-impl: .build-pre
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-impl.mk', line 39):
+	${MAKE} -f nbproject/Makefile-${CONF}.mk SUBPROJECTS=${SUBPROJECTS} .build-conf
+
+dist/default/production/attiny_ioexpander.X.production.hex: build/default/production/main.o build/default/production/mcc_generated_files/system/src/clock.o build/default/production/mcc_generated_files/system/src/pins.o build/default/production/mcc_generated_files/nvm/src/nvm.o build/default/production/mcc_generated_files/adc/src/adc0.o build/default/production/mcc_generated_files/vref/src/vref.o build/default/production/mcc_generated_files/system/src/interrupt.o build/default/production/mcc_generated_files/i2c_client/src/twi0.o build/default/production/mcc_generated_files/system/src/protected_io.o build/default/production/mcc_generated_files/system/src/config_bits.o build/default/production/mcc_generated_files/system/src/system.o nbproject/Makefile-default.mk
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/34=0%
+#  recipe to execute (from 'nbproject/Makefile-default.mk', line 254):
+	@${MKDIR} ${DISTDIR} 
+	${MP_CC} $(MP_EXTRA_LD_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -Wl,-Map=${DISTDIR}/attiny_ioexpander.X.${IMAGE_TYPE}.map  -DXPRJ_default=$(CND_CONF)  -Wl,--defsym=__MPLAB_BUILD=1   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -fno-common -funsigned-char -funsigned-bitfields -Wall -gdwarf-3     $(COMPARISON_BUILD) -Wl,--memorysummary,${DISTDIR}/memoryfile.xml -o ${DISTDIR}/attiny_ioexpander.X.${IMAGE_TYPE}.${DEBUGGABLE_SUFFIX}  -o ${DISTDIR}/attiny_ioexpander.X.${IMAGE_TYPE}.${DEBUGGABLE_SUFFIX}  ${OBJECTFILES_QUOTED_IF_SPACED}      -Wl,--start-group  -Wl,-lm -Wl,--end-group 
+	${MP_CC_DIR}/avr-objcopy -O ihex "${DISTDIR}/attiny_ioexpander.X.${IMAGE_TYPE}.${DEBUGGABLE_SUFFIX}" "${DISTDIR}/attiny_ioexpander.X.${IMAGE_TYPE}.hex"
+
+# Not a target:
+main.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-02-11 00:24:28.218386101
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+mcc_generated_files/system/src/clock.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.all-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.build-post: .build-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.generated_files/flags/default/8a6cced3423c7cc9786b3956537aec778f432191:
+#  Implicit rule search has been done.
+#  Last modified 2022-02-10 22:49:57.074240345
+#  File has been updated.
+#  Successfully updated.
+
+.clean-conf: .clean-subprojects
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-default.mk', line 269):
+	${RM} -r ${OBJECTDIR}
+	${RM} -r ${DISTDIR}
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+mcc_generated_files/system/src/config_bits.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-02-10 22:49:55.170197119
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.generated_files/flags/default/d70f08f781361035095ed64c601c8afb7d7c2d75:
+#  Implicit rule search has been done.
+#  Last modified 2022-02-10 22:53:50.379540335
+#  File has been updated.
+#  Successfully updated.
+
+build/default/production/mcc_generated_files/nvm/src/nvm.o: mcc_generated_files/nvm/src/nvm.c .generated_files/flags/default/62edea65d0b7f8374cfb97d3d955c9df6eb9599e .generated_files/flags/default/8a6cced3423c7cc9786b3956537aec778f432191
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-default.mk', line 177):
+	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/nvm/src" 
+	@${RM} ${OBJECTDIR}/mcc_generated_files/nvm/src/nvm.o.d 
+	@${RM} ${OBJECTDIR}/mcc_generated_files/nvm/src/nvm.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -fno-common -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/nvm/src/nvm.o.d" -MT "${OBJECTDIR}/mcc_generated_files/nvm/src/nvm.o.d" -MT ${OBJECTDIR}/mcc_generated_files/nvm/src/nvm.o -o ${OBJECTDIR}/mcc_generated_files/nvm/src/nvm.o mcc_generated_files/nvm/src/nvm.c 
+	
+
+# Not a target:
+mcc_generated_files/vref/src/vref.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.generated_files/flags/default/739a45866658daac487f032c3500a2994369b29a:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.generated_files/flags/default/736dab0cdcfac362e303bc05063ce71cae1c8dcd:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.depcheck-impl:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clobber-impl: .clobber-pre .depcheck-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-impl.mk', line 48):
+ 
+	    ${MAKE} SUBPROJECTS=${SUBPROJECTS} CONF=default clean
+
+build: .build-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clobber: .clobber-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.generated_files/flags/default/912ed2c71e6c636789bfd1b68286d5b0ff45f72b:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/default/production/mcc_generated_files/adc/src/adc0.o: mcc_generated_files/adc/src/adc0.c .generated_files/flags/default/fe8e3c118e81baf0148a1966c21d8485e291ab96 .generated_files/flags/default/8a6cced3423c7cc9786b3956537aec778f432191
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-default.mk', line 183):
+	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/adc/src" 
+	@${RM} ${OBJECTDIR}/mcc_generated_files/adc/src/adc0.o.d 
+	@${RM} ${OBJECTDIR}/mcc_generated_files/adc/src/adc0.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -fno-common -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/adc/src/adc0.o.d" -MT "${OBJECTDIR}/mcc_generated_files/adc/src/adc0.o.d" -MT ${OBJECTDIR}/mcc_generated_files/adc/src/adc0.o -o ${OBJECTDIR}/mcc_generated_files/adc/src/adc0.o mcc_generated_files/adc/src/adc0.c 
+	
+
+# Not a target:
+mcc_generated_files/system/src/system.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/default/production/mcc_generated_files/i2c_client/src/twi0.o: mcc_generated_files/i2c_client/src/twi0.c .generated_files/flags/default/1a762e9a87697fdca8cc8d14f8d91e1ab34227ac .generated_files/flags/default/8a6cced3423c7cc9786b3956537aec778f432191
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-default.mk', line 201):
+	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/i2c_client/src" 
+	@${RM} ${OBJECTDIR}/mcc_generated_files/i2c_client/src/twi0.o.d 
+	@${RM} ${OBJECTDIR}/mcc_generated_files/i2c_client/src/twi0.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -fno-common -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/i2c_client/src/twi0.o.d" -MT "${OBJECTDIR}/mcc_generated_files/i2c_client/src/twi0.o.d" -MT ${OBJECTDIR}/mcc_generated_files/i2c_client/src/twi0.o -o ${OBJECTDIR}/mcc_generated_files/i2c_client/src/twi0.o mcc_generated_files/i2c_client/src/twi0.c 
+	
+
+.clobber-post: .clobber-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+help: .help-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+nbproject/Makefile-impl.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-02-11 00:08:41.676902194
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+mcc_generated_files/nvm/src/nvm.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.generated_files/flags/default/62edea65d0b7f8374cfb97d3d955c9df6eb9599e:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.generated_files/flags/default/69545c2c0af9b7c6929883d72fc74b791e1d9451:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clean-subprojects:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.help-impl:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.build-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+mcc_generated_files/adc/src/adc0.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+mcc_generated_files/i2c_client/src/twi0.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clean-impl: .clean-pre
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-impl.mk', line 44):
+	${MAKE} -f nbproject/Makefile-${CONF}.mk SUBPROJECTS=${SUBPROJECTS} .clean-conf
+
+# Not a target:
+.generated_files/flags/default/fe8e3c118e81baf0148a1966c21d8485e291ab96:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.generated_files/flags/default/d71a94592a9ae63089a66caa6e1d3eaf864e49f4:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/default/production/mcc_generated_files/system/src/protected_io.o: mcc_generated_files/system/src/protected_io.S .generated_files/flags/default/b3103078213ae00518a57641e166fcb2935c3742 .generated_files/flags/default/8a6cced3423c7cc9786b3956537aec778f432191
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-default.mk', line 237):
+	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/system/src" 
+	@${RM} ${OBJECTDIR}/mcc_generated_files/system/src/protected_io.o.d 
+	@${RM} ${OBJECTDIR}/mcc_generated_files/system/src/protected_io.o 
+	${MP_CC} -c $(MP_EXTRA_AS_PRE) -mcpu=$(MP_PROCESSOR_OPTION)  -x assembler-with-cpp -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -fno-common -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  -gdwarf-3 -Wa,--defsym=__MPLAB_BUILD=1   -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/system/src/protected_io.o.d" -MT "${OBJECTDIR}/mcc_generated_files/system/src/protected_io.o.d" -MT ${OBJECTDIR}/mcc_generated_files/system/src/protected_io.o -o ${OBJECTDIR}/mcc_generated_files/system/src/protected_io.o  mcc_generated_files/system/src/protected_io.S 
+	
+
+.help-post: .help-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean: .clean-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/default/production/mcc_generated_files/system/src/pins.o: mcc_generated_files/system/src/pins.c .generated_files/flags/default/69545c2c0af9b7c6929883d72fc74b791e1d9451 .generated_files/flags/default/8a6cced3423c7cc9786b3956537aec778f432191
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-default.mk', line 171):
+	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/system/src" 
+	@${RM} ${OBJECTDIR}/mcc_generated_files/system/src/pins.o.d 
+	@${RM} ${OBJECTDIR}/mcc_generated_files/system/src/pins.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -fno-common -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/system/src/pins.o.d" -MT "${OBJECTDIR}/mcc_generated_files/system/src/pins.o.d" -MT ${OBJECTDIR}/mcc_generated_files/system/src/pins.o -o ${OBJECTDIR}/mcc_generated_files/system/src/pins.o mcc_generated_files/system/src/pins.c 
+	
+
+build/default/production/mcc_generated_files/system/src/system.o: mcc_generated_files/system/src/system.c .generated_files/flags/default/739a45866658daac487f032c3500a2994369b29a .generated_files/flags/default/8a6cced3423c7cc9786b3956537aec778f432191
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-default.mk', line 213):
+	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/system/src" 
+	@${RM} ${OBJECTDIR}/mcc_generated_files/system/src/system.o.d 
+	@${RM} ${OBJECTDIR}/mcc_generated_files/system/src/system.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -fno-common -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/system/src/system.o.d" -MT "${OBJECTDIR}/mcc_generated_files/system/src/system.o.d" -MT ${OBJECTDIR}/mcc_generated_files/system/src/system.o -o ${OBJECTDIR}/mcc_generated_files/system/src/system.o mcc_generated_files/system/src/system.c 
+	
+
+# Not a target:
+.generated_files/flags/default/e6a50aae4e799d2ed6fa7836bafacfcb7d1df270:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clean-post: .clean-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.build-conf: .build-subprojects
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-default.mk', line 91):
+	${MAKE}  -f nbproject/Makefile-default.mk ${DISTDIR}/attiny_ioexpander.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
+
+.clobber-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.all-impl: .all-pre .depcheck-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-impl.mk', line 54):
+	    ${MAKE} SUBPROJECTS=${SUBPROJECTS} CONF=default build
+
+# Not a target:
+mcc_generated_files/system/src/protected_io.S:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+mcc_generated_files/system/src/pins.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/default/production/mcc_generated_files/system/src/interrupt.o: mcc_generated_files/system/src/interrupt.c .generated_files/flags/default/d71a94592a9ae63089a66caa6e1d3eaf864e49f4 .generated_files/flags/default/8a6cced3423c7cc9786b3956537aec778f432191
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-default.mk', line 195):
+	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/system/src" 
+	@${RM} ${OBJECTDIR}/mcc_generated_files/system/src/interrupt.o.d 
+	@${RM} ${OBJECTDIR}/mcc_generated_files/system/src/interrupt.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -fno-common -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/system/src/interrupt.o.d" -MT "${OBJECTDIR}/mcc_generated_files/system/src/interrupt.o.d" -MT ${OBJECTDIR}/mcc_generated_files/system/src/interrupt.o -o ${OBJECTDIR}/mcc_generated_files/system/src/interrupt.o mcc_generated_files/system/src/interrupt.c 
+	
+
+.dep.inc: .depcheck-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.all-post: .all-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+nbproject/Makefile-default.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-02-11 00:08:42.808927294
+#  File has been updated.
+#  Successfully updated.
+
+build/default/production/main.o: main.c .generated_files/flags/default/d70f08f781361035095ed64c601c8afb7d7c2d75 .generated_files/flags/default/8a6cced3423c7cc9786b3956537aec778f432191
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := build/default/production/main.o
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := main.c .generated_files/flags/default/d70f08f781361035095ed64c601c8afb7d7c2d75 .generated_files/flags/default/8a6cced3423c7cc9786b3956537aec778f432191
+# automatic
+# | := 
+# automatic
+# < := main.c
+# automatic
+# ^ := main.c .generated_files/flags/default/d70f08f781361035095ed64c601c8afb7d7c2d75 .generated_files/flags/default/8a6cced3423c7cc9786b3956537aec778f432191
+# automatic
+# ? := main.c .generated_files/flags/default/d70f08f781361035095ed64c601c8afb7d7c2d75 .generated_files/flags/default/8a6cced3423c7cc9786b3956537aec778f432191
+# variable set hash-table stats:
+ 
+# Load=8/32=25%, Rehash=0, Collisions=32/42=76%
+#  recipe to execute (from 'nbproject/Makefile-default.mk', line 159):
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/main.o.d 
+	@${RM} ${OBJECTDIR}/main.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -fno-common -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/main.o.d" -MT "${OBJECTDIR}/main.o.d" -MT ${OBJECTDIR}/main.o -o ${OBJECTDIR}/main.o main.c 
+	
+
+.help-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=68/1024=7%, Rehash=0, Collisions=4/159=3%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 70 / storage = 2480 B / avg = 35 B
+# current buf: size = 8162 B / used = 2480 B / count = 70 / avg = 35 B
+
+# strcache performance: lookups = 156 / hit rate = 55%
+# hash-table stats:
+# Load=70/8192=1%, Rehash=0, Collisions=0/156=0%
+# Finished Make data base on Fri Feb 11 11:28:37 2022
+
+# make[3]: Leaving directory '/home/lord/DEV/Solar/canbrd-pico/attiny_ioexpander/attiny_ioexpander.X'
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Fri Feb 11 11:28:37 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# makefile (from 'nbproject/Makefile-default.mk', line 85)
+FIXDEPS = fixDeps
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = ubuntu
+# automatic
+-*-command-variables-*- := SUBPROJECTS= CONF=default
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# makefile (from 'nbproject/Makefile-impl.mk', line 16)
+SUB_no = NO
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /home/lord/DEV/Solar/canbrd-pico/attiny_ioexpander/attiny_ioexpander.X
+# makefile
+SHELL = /bin/sh
+# makefile (from 'nbproject/Makefile-default.mk', line 23)
+RM = rm -f 
+# makefile (from 'nbproject/Makefile-default.mk', line 37)
+DEBUGGABLE_SUFFIX = elf
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# makefile (from 'nbproject/Makefile-default.mk', line 93)
+MP_PROCESSOR_OPTION = ATtiny1627
+# environment
+_ = /usr/share/code/code
+# makefile (from 'nbproject/Makefile-impl.mk', line 34)
+ALLCONFS = default 
+# makefile (from 'nbproject/Makefile-default.mk', line 64)
+POSSIBLE_DEPFILES = ${OBJECTDIR}/main.o.d ${OBJECTDIR}/mcc_generated_files/system/src/clock.o.d ${OBJECTDIR}/mcc_generated_files/system/src/pins.o.d ${OBJECTDIR}/mcc_generated_files/nvm/src/nvm.o.d ${OBJECTDIR}/mcc_generated_files/adc/src/adc0.o.d ${OBJECTDIR}/mcc_generated_files/vref/src/vref.o.d ${OBJECTDIR}/mcc_generated_files/system/src/interrupt.o.d ${OBJECTDIR}/mcc_generated_files/i2c_client/src/twi0.o.d ${OBJECTDIR}/mcc_generated_files/system/src/protected_io.o.d ${OBJECTDIR}/mcc_generated_files/system/src/config_bits.o.d ${OBJECTDIR}/mcc_generated_files/system/src/system.o.d
+# environment
+JOURNAL_STREAM = 8:71302
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# makefile (from 'nbproject/Makefile-local-default.mk', line 34)
+MP_LD_DIR = "/opt/microchip/xc8/v2.35/bin"
+# makefile (from 'nbproject/Makefile-local-default.mk', line 1)
+MAKEFILE_LIST :=  nbproject/Makefile-default.mk Makefile nbproject/Makefile-impl.mk nbproject/Makefile-variables.mk nbproject/Makefile-local-default.mk
+# automatic
+@F = $(notdir $@)
+# makefile (from 'nbproject/Makefile-default.mk', line 25)
+CP = cp 
+# environment
+IM_CONFIG_PHASE = 1
+# environment
+USERNAME = lord
+# environment
+MAKELEVEL := 2
+# environment
+MANDATORY_PATH = /usr/share/gconf/ubuntu.mandatory.path
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# makefile (from 'nbproject/Makefile-local-default.mk', line 37)
+DFP_DIR = /opt/microchip/mplabx/v6.00/packs/Microchip/ATtiny_DFP/2.7.128
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# makefile (from 'nbproject/Makefile-impl.mk', line 22)
+CLEAN_SUBPROJECTS_NO = 
+# makefile (from 'nbproject/Makefile-default.mk', line 275)
+DEPFILES = $(shell "${PATH_TO_IDE_BIN}"mplabwildcard ${POSSIBLE_DEPFILES})
+# makefile (from 'nbproject/Makefile-local-default.mk', line 28)
+MP_AR = "/opt/microchip/xc8/v2.35/bin/xc8-ar"
+# makefile (from 'nbproject/Makefile-impl.mk', line 23)
+CLEAN_SUBPROJECTS = ${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
+# command line
+CONF = default
+# makefile (from 'nbproject/Makefile-impl.mk', line 21)
+CLEAN_SUBPROJECTS_ = .clean-subprojects
+# environment
+MANAGERPID = 3829
+# makefile (from 'nbproject/Makefile-default.mk', line 60)
+SOURCEFILES_QUOTED_IF_SPACED = main.c mcc_generated_files/system/src/clock.c mcc_generated_files/system/src/pins.c mcc_generated_files/nvm/src/nvm.c mcc_generated_files/adc/src/adc0.c mcc_generated_files/vref/src/vref.c mcc_generated_files/system/src/interrupt.c mcc_generated_files/i2c_client/src/twi0.c mcc_generated_files/system/src/protected_io.S mcc_generated_files/system/src/config_bits.c mcc_generated_files/system/src/system.c
+# makefile (from 'nbproject/Makefile-default.mk', line 38)
+FINAL_IMAGE = ${DISTDIR}/attiny_ioexpander.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-97d31417-42ff-4e5b-8064-6a321d465f8b.sock
+# environment
+LC_NAME = hu_HU.UTF-8
+# environment
+VSCODE_CWD = /home/lord
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile (from 'nbproject/Makefile-local-default.mk', line 19)
+PATH := /opt/microchip/mplabx/v6.00/mplab_platform/platform/../mplab_ide/modules/../../bin/:/home/lord/.latex-workshop-docker/bin:/home/lord/.local/bin:/home/lord/.cargo/bin:/home/lord/.local/bin:/home/lord/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# makefile (from 'nbproject/Makefile-default.mk', line 44)
+COMPARISON_BUILD = 
+# makefile (from 'Makefile', line 49)
+CCADMIN = CCadmin
+# makefile (from 'nbproject/Makefile-variables.mk', line 6)
+CND_BASEDIR = `pwd`
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# environment
+SESSION_MANAGER = local/CACTUS:@/tmp/.ICE-unix/4088,unix/CACTUS:/tmp/.ICE-unix/4088
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from 'nbproject/Makefile-default.mk', line 50)
+SUB_IMAGE_ADDRESS_COMMAND = 
+# makefile (from 'nbproject/Makefile-default.mk', line 74)
+CFLAGS = 
+# makefile (from 'nbproject/Makefile-local-default.mk', line 27)
+MP_LD = "/opt/microchip/xc8/v2.35/bin/xc8-cc"
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+VSCODE_LOG_STACK = false
+# environment
+VSCODE_CRASH_REPORTER_START_OPTIONS = {"companyName":"Microsoft","productName":"VSCode","submitURL":"appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=846cb815-19a2-4c2a-a073-a7c0cec17330&iid=846cb815-19a2-4c2a-a073-a7c0cec17330&sid=846cb815-19a2-4c2a-a073-a7c0cec17330","uploadToServer":true}
+# environment
+INVOCATION_ID = 8bfd587284314969a2c2ae1787272ed6
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# makefile (from 'nbproject/Makefile-local-default.mk', line 29)
+DEP_GEN = ${MP_JAVA_PATH}java -jar "/opt/microchip/mplabx/v6.00/mplab_platform/platform/../mplab_ide/modules/../../bin/extractobjectdependencies.jar"
+# makefile (from 'nbproject/Makefile-local-default.mk', line 35)
+MP_AR_DIR = "/opt/microchip/xc8/v2.35/bin"
+# environment
+LS_COLORS = 
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 24284
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :0
+# makefile (from 'nbproject/Makefile-impl.mk', line 30)
+DEFAULTCONF = default
+# makefile (from 'nbproject/Makefile-local-default.mk', line 23)
+MP_CC = "/opt/microchip/xc8/v2.35/bin/xc8-cc"
+# makefile (from 'nbproject/Makefile-variables.mk', line 10)
+CND_ARTIFACT_PATH_default = dist/default/production/attiny_ioexpander.X.production.hex
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /home/lord/DEV/Solar/canbrd-pico/attiny_ioexpander/attiny_ioexpander.X
+# makefile (from 'nbproject/Makefile-impl.mk', line 19)
+BUILD_SUBPROJECTS_NO = 
+# makefile (from 'nbproject/Makefile-impl.mk', line 20)
+BUILD_SUBPROJECTS = ${BUILD_SUBPROJECTS_${SUBPROJECTS}}
+# default
+.LOADED := 
+# makefile (from 'nbproject/Makefile-impl.mk', line 18)
+BUILD_SUBPROJECTS_ = .build-subprojects
+# environment
+SSH_AGENT_PID = 4020
+# makefile (from 'nbproject/Makefile-default.mk', line 67)
+OBJECTFILES = ${OBJECTDIR}/main.o ${OBJECTDIR}/mcc_generated_files/system/src/clock.o ${OBJECTDIR}/mcc_generated_files/system/src/pins.o ${OBJECTDIR}/mcc_generated_files/nvm/src/nvm.o ${OBJECTDIR}/mcc_generated_files/adc/src/adc0.o ${OBJECTDIR}/mcc_generated_files/vref/src/vref.o ${OBJECTDIR}/mcc_generated_files/system/src/interrupt.o ${OBJECTDIR}/mcc_generated_files/i2c_client/src/twi0.o ${OBJECTDIR}/mcc_generated_files/system/src/protected_io.o ${OBJECTDIR}/mcc_generated_files/system/src/config_bits.o ${OBJECTDIR}/mcc_generated_files/system/src/system.o
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+HOME = /home/lord
+# environment
+VSCODE_CODE_CACHE_PATH = /home/lord/.config/Code/CachedData/f80445acd5a3dadef24aa209168452a3d97cc326
+# environment
+LOGNAME = lord
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# makefile (from 'Makefile', line 50)
+RANLIB = ranlib
+# automatic
++F = $(notdir $+)
+# environment
+ZSH = /home/lord/.oh-my-zsh
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile (from 'nbproject/Makefile-default.mk', line 22)
+MKDIR = mkdir -p
+# makefile (from 'nbproject/Makefile-default.mk', line 57)
+DISTDIR = dist/${CND_CONF}/${IMAGE_TYPE}
+# environment
+KICAD_PATH = /usr/share/kicad
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := .build-conf
+# environment
+QT_IM_MODULE = ibus
+# environment
+SHLVL = 0
+# makefile (from 'nbproject/Makefile-default.mk', line 36)
+OUTPUT_SUFFIX = hex
+# environment
+MAKEOVERRIDES = ${-*-command-variables-*-}
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# makefile (from 'nbproject/Makefile-default.mk', line 75)
+ASFLAGS = 
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = lord
+# environment
+LC_MONETARY = hu_HU.UTF-8
+# makefile
+.DEFAULT_GOAL := build
+# makefile (from 'nbproject/Makefile-local-default.mk', line 33)
+MP_AS_DIR = "/opt/microchip/xc8/v2.35/bin"
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# environment
+LIBVIRT_DEFAULT_URI = qemu:///system
+# makefile (from 'nbproject/Makefile-default.mk', line 35)
+IMAGE_TYPE = production
+# environment
+LESS = -R
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LC_TELEPHONE = hu_HU.UTF-8
+# default
+MAKE_COMMAND := make
+# environment
+OLDPWD = /home/lord
+# default
+ 
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-61d0e19f-1.64.2-main.sock
+# makefile (from 'nbproject/Makefile-local-default.mk', line 26)
+MP_AS = "/opt/microchip/xc8/v2.35/bin/xc8-cc"
+# makefile (from 'nbproject/Makefile-variables.mk', line 9)
+CND_ARTIFACT_NAME_default = attiny_ioexpander.X.production.hex
+# makefile
+MAKEFLAGS = pqrRw -- $(MAKEOVERRIDES)
+# environment
+MFLAGS = -pqrRw
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+BREAKPAD_DUMP_LOCATION = /home/lord/.config/Code/exthost Crash Reports
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# environment
+LC_PAPER = hu_HU.UTF-8
+# environment
+QT_ACCESSIBILITY = 1
+# environment
+DEFAULTS_PATH = /usr/share/gconf/ubuntu.default.path
+# makefile (from 'nbproject/Makefile-local-default.mk', line 21)
+MP_JAVA_PATH = "/opt/microchip/mplabx/v6.00/sys/java/zulu8.54.0.21-ca-fx-jre8.0.292-linux_x64/bin/"
+# makefile (from 'nbproject/Makefile-default.mk', line 24)
+MV = mv 
+# 'override' directive
+.SHELLSTATUS := 0
+# default
+MAKEFILES := 
+# makefile (from 'nbproject/Makefile-default.mk', line 63)
+OBJECTFILES_QUOTED_IF_SPACED = ${OBJECTDIR}/main.o ${OBJECTDIR}/mcc_generated_files/system/src/clock.o ${OBJECTDIR}/mcc_generated_files/system/src/pins.o ${OBJECTDIR}/mcc_generated_files/nvm/src/nvm.o ${OBJECTDIR}/mcc_generated_files/adc/src/adc0.o ${OBJECTDIR}/mcc_generated_files/vref/src/vref.o ${OBJECTDIR}/mcc_generated_files/system/src/interrupt.o ${OBJECTDIR}/mcc_generated_files/i2c_client/src/twi0.o ${OBJECTDIR}/mcc_generated_files/system/src/protected_io.o ${OBJECTDIR}/mcc_generated_files/system/src/config_bits.o ${OBJECTDIR}/mcc_generated_files/system/src/system.o
+# environment
+LC_NUMERIC = hu_HU.UTF-8
+# environment
+SUMO_HOME = /usr/share/sumo
+# automatic
+<F = $(notdir $<)
+# makefile (from 'nbproject/Makefile-default.mk', line 76)
+LDLIBSOPTIONS = 
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from 'nbproject/Makefile-impl.mk', line 27)
+PROJECTNAME = attiny_ioexpander.X
+# environment
+LC_MEASUREMENT = hu_HU.UTF-8
+# makefile (from 'nbproject/Makefile-default.mk', line 70)
+SOURCEFILES = main.c mcc_generated_files/system/src/clock.c mcc_generated_files/system/src/pins.c mcc_generated_files/nvm/src/nvm.c mcc_generated_files/adc/src/adc0.c mcc_generated_files/vref/src/vref.c mcc_generated_files/system/src/interrupt.c mcc_generated_files/i2c_client/src/twi0.c mcc_generated_files/system/src/protected_io.S mcc_generated_files/system/src/config_bits.c mcc_generated_files/system/src/system.c
+# environment
+PAGER = less
+# environment
+LC_ALL = C
+# makefile (from 'nbproject/Makefile-local-default.mk', line 17)
+PATH_TO_IDE_BIN = /opt/microchip/mplabx/v6.00/mplab_platform/platform/../mplab_ide/modules/../../bin/
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# makefile (from 'nbproject/Makefile-default.mk', line 54)
+OBJECTDIR = build/${CND_CONF}/${IMAGE_TYPE}
+# automatic
+^F = $(notdir $^)
+# makefile (from 'nbproject/Makefile-local-default.mk', line 30)
+MP_CC_DIR = "/opt/microchip/xc8/v2.35/bin"
+# environment
+ZEPHYR_BASE = /home/lord/SDKs/zephyrproject/zephyr
+# default
+SUFFIXES := 
+# makefile (from 'nbproject/Makefile-default.mk', line 28)
+CND_CONF = default
+# environment
+KIGITHUB = https://github.com/KiCad
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# makefile (from 'nbproject/Makefile-variables.mk', line 8)
+CND_ARTIFACT_DIR_default = dist/default/production
+# environment
+WINDOWPATH = 2
+# environment
+LC_TIME = hu_HU.UTF-8
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+LC_IDENTIFICATION = hu_HU.UTF-8
+# command line
+SUBPROJECTS = 
+# default
+.RECIPEPREFIX := 
+# environment
+PICO_SDK_PATH = /home/lord/SDKs/pico/pico-sdk
+# environment
+LC_ADDRESS = hu_HU.UTF-8
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# environment
+LANG = C
+# makefile (from 'nbproject/Makefile-local-default.mk', line 22)
+OS_CURRENT = "$(shell uname -s)"
+# environment
+VSCODE_PID = 24284
+# variable set hash-table stats:
+# Load=177/1024=17%, Rehash=0, Collisions=43/362=12%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+
+# No files, no impossibilities in 0 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+nbproject/Makefile-local-default.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-02-11 00:08:42.808927294
+#  File has been updated.
+#  Successfully updated.
+
+build/default/production/mcc_generated_files/system/src/clock.o: mcc_generated_files/system/src/clock.c .generated_files/flags/default/912ed2c71e6c636789bfd1b68286d5b0ff45f72b .generated_files/flags/default/8a6cced3423c7cc9786b3956537aec778f432191
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-default.mk', line 165):
+	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/system/src" 
+	@${RM} ${OBJECTDIR}/mcc_generated_files/system/src/clock.o.d 
+	@${RM} ${OBJECTDIR}/mcc_generated_files/system/src/clock.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -fno-common -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/system/src/clock.o.d" -MT "${OBJECTDIR}/mcc_generated_files/system/src/clock.o.d" -MT ${OBJECTDIR}/mcc_generated_files/system/src/clock.o -o ${OBJECTDIR}/mcc_generated_files/system/src/clock.o mcc_generated_files/system/src/clock.c 
+	
+
+.build-subprojects:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+nbproject/Makefile-variables.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-02-11 00:08:42.808927294
+#  File has been updated.
+#  Successfully updated.
+
+build/default/production/mcc_generated_files/system/src/config_bits.o: mcc_generated_files/system/src/config_bits.c .generated_files/flags/default/e6a50aae4e799d2ed6fa7836bafacfcb7d1df270 .generated_files/flags/default/8a6cced3423c7cc9786b3956537aec778f432191
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-default.mk', line 207):
+	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/system/src" 
+	@${RM} ${OBJECTDIR}/mcc_generated_files/system/src/config_bits.o.d 
+	@${RM} ${OBJECTDIR}/mcc_generated_files/system/src/config_bits.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -fno-common -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/system/src/config_bits.o.d" -MT "${OBJECTDIR}/mcc_generated_files/system/src/config_bits.o.d" -MT ${OBJECTDIR}/mcc_generated_files/system/src/config_bits.o -o ${OBJECTDIR}/mcc_generated_files/system/src/config_bits.o mcc_generated_files/system/src/config_bits.c 
+	
+
+.clean-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.generated_files/flags/default/b3103078213ae00518a57641e166fcb2935c3742:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/default/production/mcc_generated_files/vref/src/vref.o: mcc_generated_files/vref/src/vref.c .generated_files/flags/default/736dab0cdcfac362e303bc05063ce71cae1c8dcd .generated_files/flags/default/8a6cced3423c7cc9786b3956537aec778f432191
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-default.mk', line 189):
+	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/vref/src" 
+	@${RM} ${OBJECTDIR}/mcc_generated_files/vref/src/vref.o.d 
+	@${RM} ${OBJECTDIR}/mcc_generated_files/vref/src/vref.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -fno-common -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/vref/src/vref.o.d" -MT "${OBJECTDIR}/mcc_generated_files/vref/src/vref.o.d" -MT ${OBJECTDIR}/mcc_generated_files/vref/src/vref.o -o ${OBJECTDIR}/mcc_generated_files/vref/src/vref.o mcc_generated_files/vref/src/vref.c 
+	
+
+# Not a target:
+mcc_generated_files/system/src/interrupt.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: .all-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.generated_files/flags/default/1a762e9a87697fdca8cc8d14f8d91e1ab34227ac:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.build-impl: .build-pre
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-impl.mk', line 39):
+	${MAKE} -f nbproject/Makefile-${CONF}.mk SUBPROJECTS=${SUBPROJECTS} .build-conf
+
+dist/default/production/attiny_ioexpander.X.production.hex: build/default/production/main.o build/default/production/mcc_generated_files/system/src/clock.o build/default/production/mcc_generated_files/system/src/pins.o build/default/production/mcc_generated_files/nvm/src/nvm.o build/default/production/mcc_generated_files/adc/src/adc0.o build/default/production/mcc_generated_files/vref/src/vref.o build/default/production/mcc_generated_files/system/src/interrupt.o build/default/production/mcc_generated_files/i2c_client/src/twi0.o build/default/production/mcc_generated_files/system/src/protected_io.o build/default/production/mcc_generated_files/system/src/config_bits.o build/default/production/mcc_generated_files/system/src/system.o nbproject/Makefile-default.mk
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-default.mk', line 254):
+	@${MKDIR} ${DISTDIR} 
+	${MP_CC} $(MP_EXTRA_LD_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -Wl,-Map=${DISTDIR}/attiny_ioexpander.X.${IMAGE_TYPE}.map  -DXPRJ_default=$(CND_CONF)  -Wl,--defsym=__MPLAB_BUILD=1   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -fno-common -funsigned-char -funsigned-bitfields -Wall -gdwarf-3     $(COMPARISON_BUILD) -Wl,--memorysummary,${DISTDIR}/memoryfile.xml -o ${DISTDIR}/attiny_ioexpander.X.${IMAGE_TYPE}.${DEBUGGABLE_SUFFIX}  -o ${DISTDIR}/attiny_ioexpander.X.${IMAGE_TYPE}.${DEBUGGABLE_SUFFIX}  ${OBJECTFILES_QUOTED_IF_SPACED}      -Wl,--start-group  -Wl,-lm -Wl,--end-group 
+	${MP_CC_DIR}/avr-objcopy -O ihex "${DISTDIR}/attiny_ioexpander.X.${IMAGE_TYPE}.${DEBUGGABLE_SUFFIX}" "${DISTDIR}/attiny_ioexpander.X.${IMAGE_TYPE}.hex"
+
+# Not a target:
+main.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+mcc_generated_files/system/src/clock.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.all-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.build-post: .build-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.generated_files/flags/default/8a6cced3423c7cc9786b3956537aec778f432191:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clean-conf: .clean-subprojects
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-default.mk', line 269):
+	${RM} -r ${OBJECTDIR}
+	${RM} -r ${DISTDIR}
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+mcc_generated_files/system/src/config_bits.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-02-10 22:49:55.170197119
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.generated_files/flags/default/d70f08f781361035095ed64c601c8afb7d7c2d75:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/default/production/mcc_generated_files/nvm/src/nvm.o: mcc_generated_files/nvm/src/nvm.c .generated_files/flags/default/62edea65d0b7f8374cfb97d3d955c9df6eb9599e .generated_files/flags/default/8a6cced3423c7cc9786b3956537aec778f432191
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-default.mk', line 177):
+	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/nvm/src" 
+	@${RM} ${OBJECTDIR}/mcc_generated_files/nvm/src/nvm.o.d 
+	@${RM} ${OBJECTDIR}/mcc_generated_files/nvm/src/nvm.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -fno-common -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/nvm/src/nvm.o.d" -MT "${OBJECTDIR}/mcc_generated_files/nvm/src/nvm.o.d" -MT ${OBJECTDIR}/mcc_generated_files/nvm/src/nvm.o -o ${OBJECTDIR}/mcc_generated_files/nvm/src/nvm.o mcc_generated_files/nvm/src/nvm.c 
+	
+
+# Not a target:
+mcc_generated_files/vref/src/vref.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.generated_files/flags/default/739a45866658daac487f032c3500a2994369b29a:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.generated_files/flags/default/736dab0cdcfac362e303bc05063ce71cae1c8dcd:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.depcheck-impl:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clobber-impl: .clobber-pre .depcheck-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-impl.mk', line 48):
+	    ${MAKE} SUBPROJECTS=${SUBPROJECTS} CONF=default clean
+
+build: .build-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+ 
+
+clobber: .clobber-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.generated_files/flags/default/912ed2c71e6c636789bfd1b68286d5b0ff45f72b:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/default/production/mcc_generated_files/adc/src/adc0.o: mcc_generated_files/adc/src/adc0.c .generated_files/flags/default/fe8e3c118e81baf0148a1966c21d8485e291ab96 .generated_files/flags/default/8a6cced3423c7cc9786b3956537aec778f432191
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-default.mk', line 183):
+	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/adc/src" 
+	@${RM} ${OBJECTDIR}/mcc_generated_files/adc/src/adc0.o.d 
+	@${RM} ${OBJECTDIR}/mcc_generated_files/adc/src/adc0.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -fno-common -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/adc/src/adc0.o.d" -MT "${OBJECTDIR}/mcc_generated_files/adc/src/adc0.o.d" -MT ${OBJECTDIR}/mcc_generated_files/adc/src/adc0.o -o ${OBJECTDIR}/mcc_generated_files/adc/src/adc0.o mcc_generated_files/adc/src/adc0.c 
+	
+
+# Not a target:
+mcc_generated_files/system/src/system.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/default/production/mcc_generated_files/i2c_client/src/twi0.o: mcc_generated_files/i2c_client/src/twi0.c .generated_files/flags/default/1a762e9a87697fdca8cc8d14f8d91e1ab34227ac .generated_files/flags/default/8a6cced3423c7cc9786b3956537aec778f432191
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-default.mk', line 201):
+	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/i2c_client/src" 
+	@${RM} ${OBJECTDIR}/mcc_generated_files/i2c_client/src/twi0.o.d 
+	@${RM} ${OBJECTDIR}/mcc_generated_files/i2c_client/src/twi0.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -fno-common -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/i2c_client/src/twi0.o.d" -MT "${OBJECTDIR}/mcc_generated_files/i2c_client/src/twi0.o.d" -MT ${OBJECTDIR}/mcc_generated_files/i2c_client/src/twi0.o -o ${OBJECTDIR}/mcc_generated_files/i2c_client/src/twi0.o mcc_generated_files/i2c_client/src/twi0.c 
+	
+
+.clobber-post: .clobber-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+help: .help-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+nbproject/Makefile-impl.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-02-11 00:08:41.676902194
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+mcc_generated_files/nvm/src/nvm.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.generated_files/flags/default/62edea65d0b7f8374cfb97d3d955c9df6eb9599e:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.generated_files/flags/default/69545c2c0af9b7c6929883d72fc74b791e1d9451:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clean-subprojects:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.help-impl:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.build-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+mcc_generated_files/adc/src/adc0.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+mcc_generated_files/i2c_client/src/twi0.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clean-impl: .clean-pre
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-impl.mk', line 44):
+	${MAKE} -f nbproject/Makefile-${CONF}.mk SUBPROJECTS=${SUBPROJECTS} .clean-conf
+
+# Not a target:
+.generated_files/flags/default/fe8e3c118e81baf0148a1966c21d8485e291ab96:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.generated_files/flags/default/d71a94592a9ae63089a66caa6e1d3eaf864e49f4:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/default/production/mcc_generated_files/system/src/protected_io.o: mcc_generated_files/system/src/protected_io.S .generated_files/flags/default/b3103078213ae00518a57641e166fcb2935c3742 .generated_files/flags/default/8a6cced3423c7cc9786b3956537aec778f432191
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-default.mk', line 237):
+	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/system/src" 
+	@${RM} ${OBJECTDIR}/mcc_generated_files/system/src/protected_io.o.d 
+	@${RM} ${OBJECTDIR}/mcc_generated_files/system/src/protected_io.o 
+	${MP_CC} -c $(MP_EXTRA_AS_PRE) -mcpu=$(MP_PROCESSOR_OPTION)  -x assembler-with-cpp -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -fno-common -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  -gdwarf-3 -Wa,--defsym=__MPLAB_BUILD=1   -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/system/src/protected_io.o.d" -MT "${OBJECTDIR}/mcc_generated_files/system/src/protected_io.o.d" -MT ${OBJECTDIR}/mcc_generated_files/system/src/protected_io.o -o ${OBJECTDIR}/mcc_generated_files/system/src/protected_io.o  mcc_generated_files/system/src/protected_io.S 
+	
+
+.help-post: .help-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean: .clean-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/default/production/mcc_generated_files/system/src/pins.o: mcc_generated_files/system/src/pins.c .generated_files/flags/default/69545c2c0af9b7c6929883d72fc74b791e1d9451 .generated_files/flags/default/8a6cced3423c7cc9786b3956537aec778f432191
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-default.mk', line 171):
+	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/system/src" 
+	@${RM} ${OBJECTDIR}/mcc_generated_files/system/src/pins.o.d 
+	@${RM} ${OBJECTDIR}/mcc_generated_files/system/src/pins.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -fno-common -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/system/src/pins.o.d" -MT "${OBJECTDIR}/mcc_generated_files/system/src/pins.o.d" -MT ${OBJECTDIR}/mcc_generated_files/system/src/pins.o -o ${OBJECTDIR}/mcc_generated_files/system/src/pins.o mcc_generated_files/system/src/pins.c 
+	
+
+build/default/production/mcc_generated_files/system/src/system.o: mcc_generated_files/system/src/system.c .generated_files/flags/default/739a45866658daac487f032c3500a2994369b29a .generated_files/flags/default/8a6cced3423c7cc9786b3956537aec778f432191
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-default.mk', line 213):
+	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/system/src" 
+	@${RM} ${OBJECTDIR}/mcc_generated_files/system/src/system.o.d 
+	@${RM} ${OBJECTDIR}/mcc_generated_files/system/src/system.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -fno-common -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/system/src/system.o.d" -MT "${OBJECTDIR}/mcc_generated_files/system/src/system.o.d" -MT ${OBJECTDIR}/mcc_generated_files/system/src/system.o -o ${OBJECTDIR}/mcc_generated_files/system/src/system.o mcc_generated_files/system/src/system.c 
+	
+
+# Not a target:
+.generated_files/flags/default/e6a50aae4e799d2ed6fa7836bafacfcb7d1df270:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clean-post: .clean-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.build-conf: .build-subprojects
+#  Command line target.
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := .build-conf
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := .build-subprojects
+# automatic
+# | := 
+# automatic
+# < := .build-subprojects
+# automatic
+# ^ := .build-subprojects
+# automatic
+# ? := .build-subprojects
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=3/20=15%
+#  recipe to execute (from 'nbproject/Makefile-default.mk', line 91):
+	${MAKE}  -f nbproject/Makefile-default.mk ${DISTDIR}/attiny_ioexpander.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
+
+.clobber-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.all-impl: .all-pre .depcheck-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-impl.mk', line 54):
+	    ${MAKE} SUBPROJECTS=${SUBPROJECTS} CONF=default build
+
+# Not a target:
+mcc_generated_files/system/src/protected_io.S:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+mcc_generated_files/system/src/pins.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/default/production/mcc_generated_files/system/src/interrupt.o: mcc_generated_files/system/src/interrupt.c .generated_files/flags/default/d71a94592a9ae63089a66caa6e1d3eaf864e49f4 .generated_files/flags/default/8a6cced3423c7cc9786b3956537aec778f432191
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-default.mk', line 195):
+	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/system/src" 
+	@${RM} ${OBJECTDIR}/mcc_generated_files/system/src/interrupt.o.d 
+	@${RM} ${OBJECTDIR}/mcc_generated_files/system/src/interrupt.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -fno-common -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/system/src/interrupt.o.d" -MT "${OBJECTDIR}/mcc_generated_files/system/src/interrupt.o.d" -MT ${OBJECTDIR}/mcc_generated_files/system/src/interrupt.o -o ${OBJECTDIR}/mcc_generated_files/system/src/interrupt.o mcc_generated_files/system/src/interrupt.c 
+	
+
+.dep.inc: .depcheck-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.all-post: .all-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+nbproject/Makefile-default.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-02-11 00:08:42.808927294
+#  File has been updated.
+#  Successfully updated.
+
+build/default/production/main.o: main.c .generated_files/flags/default/d70f08f781361035095ed64c601c8afb7d7c2d75 .generated_files/flags/default/8a6cced3423c7cc9786b3956537aec778f432191
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-default.mk', line 159):
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/main.o.d 
+	@${RM} ${OBJECTDIR}/main.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -fno-common -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/main.o.d" -MT "${OBJECTDIR}/main.o.d" -MT ${OBJECTDIR}/main.o -o ${OBJECTDIR}/main.o main.c 
+	
+
+.help-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+ 
+# Load=68/1024=7%, Rehash=0, Collisions=4/160=2%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 70 / storage = 2480 B / avg = 35 B
+# current buf: size = 8162 B / used = 2480 B / count = 70 / avg = 35 B
+
+# strcache performance: lookups = 156 / hit rate = 55%
+# hash-table stats:
+# Load=70/8192=1%, Rehash=0, Collisions=0/156=0%
+# Finished Make data base on Fri Feb 11 11:28:37 2022
+
+# make[2]: Leaving directory '/home/lord/DEV/Solar/canbrd-pico/attiny_ioexpander/attiny_ioexpander.X'
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Fri Feb 11 11:28:37 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = ubuntu
+# automatic
+-*-command-variables-*- := CONF=default SUBPROJECTS=
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# makefile (from 'nbproject/Makefile-impl.mk', line 16)
+SUB_no = NO
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /home/lord/DEV/Solar/canbrd-pico/attiny_ioexpander/attiny_ioexpander.X
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/share/code/code
+# makefile (from 'nbproject/Makefile-impl.mk', line 34)
+ALLCONFS = default 
+# environment
+JOURNAL_STREAM = 8:71302
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# makefile (from 'nbproject/Makefile-variables.mk', line 1)
+MAKEFILE_LIST :=  Makefile nbproject/Makefile-impl.mk nbproject/Makefile-variables.mk
+# automatic
+@F = $(notdir $@)
+# makefile (from 'Makefile', line 48)
+CP = cp
+# environment
+IM_CONFIG_PHASE = 1
+# environment
+USERNAME = lord
+# environment
+MAKELEVEL := 1
+# environment
+MANDATORY_PATH = /usr/share/gconf/ubuntu.mandatory.path
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# makefile (from 'nbproject/Makefile-impl.mk', line 22)
+CLEAN_SUBPROJECTS_NO = 
+# makefile (from 'nbproject/Makefile-impl.mk', line 23)
+CLEAN_SUBPROJECTS = ${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
+# command line
+CONF = default
+# makefile (from 'nbproject/Makefile-impl.mk', line 21)
+CLEAN_SUBPROJECTS_ = .clean-subprojects
+# environment
+MANAGERPID = 3829
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-97d31417-42ff-4e5b-8064-6a321d465f8b.sock
+# environment
+LC_NAME = hu_HU.UTF-8
+# environment
+VSCODE_CWD = /home/lord
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /home/lord/.latex-workshop-docker/bin:/home/lord/.local/bin:/home/lord/.cargo/bin:/home/lord/.local/bin:/home/lord/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# makefile (from 'Makefile', line 49)
+CCADMIN = CCadmin
+# makefile (from 'nbproject/Makefile-variables.mk', line 6)
+CND_BASEDIR = `pwd`
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# environment
+SESSION_MANAGER = local/CACTUS:@/tmp/.ICE-unix/4088,unix/CACTUS:/tmp/.ICE-unix/4088
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+VSCODE_LOG_STACK = false
+# environment
+VSCODE_CRASH_REPORTER_START_OPTIONS = {"companyName":"Microsoft","productName":"VSCode","submitURL":"appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=846cb815-19a2-4c2a-a073-a7c0cec17330&iid=846cb815-19a2-4c2a-a073-a7c0cec17330&sid=846cb815-19a2-4c2a-a073-a7c0cec17330","uploadToServer":true}
+# environment
+INVOCATION_ID = 8bfd587284314969a2c2ae1787272ed6
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 24284
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :0
+# makefile (from 'nbproject/Makefile-impl.mk', line 30)
+DEFAULTCONF = default
+# makefile (from 'nbproject/Makefile-variables.mk', line 10)
+CND_ARTIFACT_PATH_default = dist/default/production/attiny_ioexpander.X.production.hex
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /home/lord/DEV/Solar/canbrd-pico/attiny_ioexpander/attiny_ioexpander.X
+# makefile (from 'nbproject/Makefile-impl.mk', line 19)
+BUILD_SUBPROJECTS_NO = 
+# makefile (from 'nbproject/Makefile-impl.mk', line 20)
+BUILD_SUBPROJECTS = ${BUILD_SUBPROJECTS_${SUBPROJECTS}}
+# default
+.LOADED := 
+# makefile (from 'nbproject/Makefile-impl.mk', line 18)
+BUILD_SUBPROJECTS_ = .build-subprojects
+# environment
+SSH_AGENT_PID = 4020
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+HOME = /home/lord
+# environment
+VSCODE_CODE_CACHE_PATH = /home/lord/.config/Code/CachedData/f80445acd5a3dadef24aa209168452a3d97cc326
+# environment
+LOGNAME = lord
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# makefile (from 'Makefile', line 50)
+RANLIB = ranlib
+# automatic
++F = $(notdir $+)
+# environment
+ZSH = /home/lord/.oh-my-zsh
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile (from 'Makefile', line 47)
+MKDIR = mkdir
+# environment
+KICAD_PATH = /usr/share/kicad
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := build
+# environment
+QT_IM_MODULE = ibus
+# environment
+SHLVL = 0
+# environment
+MAKEOVERRIDES = ${-*-command-variables-*-}
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = lord
+# environment
+LC_MONETARY = hu_HU.UTF-8
+# makefile
+.DEFAULT_GOAL := build
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# environment
+LIBVIRT_DEFAULT_URI = qemu:///system
+# environment
+LESS = -R
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LC_TELEPHONE = hu_HU.UTF-8
+# default
+MAKE_COMMAND := make
+# environment
+OLDPWD = /home/lord
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-61d0e19f-1.64.2-main.sock
+# makefile (from 'nbproject/Makefile-variables.mk', line 9)
+CND_ARTIFACT_NAME_default = attiny_ioexpander.X.production.hex
+# makefile
+MAKEFLAGS = pqrRw -- $(MAKEOVERRIDES)
+# environment
+MFLAGS = -pqrRw
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+BREAKPAD_DUMP_LOCATION = /home/lord/.config/Code/exthost Crash Reports
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# environment
+LC_PAPER = hu_HU.UTF-8
+# environment
+QT_ACCESSIBILITY = 1
+# environment
+DEFAULTS_PATH = /usr/share/gconf/ubuntu.default.path
+# default
+MAKEFILES := 
+# environment
+LC_NUMERIC = hu_HU.UTF-8
+# environment
+SUMO_HOME = /usr/share/sumo
+# automatic
+<F = $(notdir $<)
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from 'nbproject/Makefile-impl.mk', line 27)
+PROJECTNAME = attiny_ioexpander.X
+# environment
+LC_MEASUREMENT = hu_HU.UTF-8
+# environment
+PAGER = less
+# environment
+LC_ALL = C
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# automatic
+^F = $(notdir $^)
+# environment
+ZEPHYR_BASE = /home/lord/SDKs/zephyrproject/zephyr
+# default
+SUFFIXES := 
+# environment
+KIGITHUB = https://github.com/KiCad
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# makefile (from 'nbproject/Makefile-variables.mk', line 8)
+CND_ARTIFACT_DIR_default = dist/default/production
+# environment
+WINDOWPATH = 2
+# environment
+LC_TIME = hu_HU.UTF-8
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+LC_IDENTIFICATION = hu_HU.UTF-8
+# command line
+SUBPROJECTS = 
+# default
+ 
+.RECIPEPREFIX := 
+# environment
+PICO_SDK_PATH = /home/lord/SDKs/pico/pico-sdk
+# environment
+LC_ADDRESS = hu_HU.UTF-8
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# environment
+LANG = C
+# environment
+VSCODE_PID = 24284
+# variable set hash-table stats:
+# Load=141/1024=14%, Rehash=0, Collisions=29/184=16%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 64769, inode 23888704): 11 files, no impossibilities.
+
+# 11 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+nbproject/Makefile-variables.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-02-11 00:08:42.808927294
+#  File has been updated.
+#  Successfully updated.
+
+.clean-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: .all-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.build-impl: .build-pre
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := .build-impl
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := .build-pre
+# automatic
+# | := 
+# automatic
+# < := .build-pre
+# automatic
+# ^ := .build-pre
+# automatic
+# ? := .build-pre
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/17=12%
+#  recipe to execute (from 'nbproject/Makefile-impl.mk', line 39):
+	${MAKE} -f nbproject/Makefile-${CONF}.mk SUBPROJECTS=${SUBPROJECTS} .build-conf
+
+.all-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.build-post: .build-impl
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/9=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-02-10 22:49:55.170197119
+#  File has been updated.
+#  Successfully updated.
+
+.depcheck-impl:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clobber-impl: .clobber-pre .depcheck-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-impl.mk', line 48):
+	    ${MAKE} SUBPROJECTS=${SUBPROJECTS} CONF=default clean
+
+build: .build-post
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/9=0%
+
+clobber: .clobber-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clobber-post: .clobber-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+help: .help-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+nbproject/Makefile-impl.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-02-11 00:08:41.676902194
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.help-impl:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.build-pre:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clean-impl: .clean-pre
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-impl.mk', line 44):
+	${MAKE} -f nbproject/Makefile-${CONF}.mk SUBPROJECTS=${SUBPROJECTS} .clean-conf
+
+.help-post: .help-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean: .clean-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clean-post: .clean-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clobber-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.all-impl: .all-pre .depcheck-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-impl.mk', line 54):
+	    ${MAKE} SUBPROJECTS=${SUBPROJECTS} CONF=default build
+
+.all-post: .all-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.help-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=26/1024=3%, Rehash=0, Collisions=0/67=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 38 / storage = 437 B / avg = 11 B
+# current buf: size = 8162 B / used = 437 B / count = 38 / avg = 11 B
+
+# strcache performance: lookups = 81 / hit rate = 53%
+# hash-table stats:
+# Load=38/8192=0%, Rehash=0, Collisions=1/81=1%
+# Finished Make data base on Fri Feb 11 11:28:37 2022
+
+# make[1]: Leaving directory '/home/lord/DEV/Solar/canbrd-pico/attiny_ioexpander/attiny_ioexpander.X'
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Fri Feb 11 11:28:37 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = ubuntu
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# makefile (from 'nbproject/Makefile-impl.mk', line 16)
+SUB_no = NO
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+IM_CONFIG_PHASE = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /home/lord/DEV/Solar/canbrd-pico/attiny_ioexpander/attiny_ioexpander.X
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/share/code/code
+# makefile (from 'nbproject/Makefile-impl.mk', line 34)
+ALLCONFS = default 
+# environment
+JOURNAL_STREAM = 8:71302
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# makefile (from 'nbproject/Makefile-variables.mk', line 1)
+MAKEFILE_LIST :=  Makefile nbproject/Makefile-impl.mk nbproject/Makefile-variables.mk
+# automatic
+@F = $(notdir $@)
+# makefile (from 'Makefile', line 48)
+CP = cp
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# environment
+USERNAME = lord
+# environment
+MAKELEVEL := 0
+# environment
+MANDATORY_PATH = /usr/share/gconf/ubuntu.mandatory.path
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# makefile (from 'nbproject/Makefile-impl.mk', line 22)
+CLEAN_SUBPROJECTS_NO = 
+# makefile (from 'nbproject/Makefile-impl.mk', line 23)
+CLEAN_SUBPROJECTS = ${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
+# makefile (from 'nbproject/Makefile-impl.mk', line 31)
+CONF = ${DEFAULTCONF}
+# makefile (from 'nbproject/Makefile-impl.mk', line 21)
+CLEAN_SUBPROJECTS_ = .clean-subprojects
+# environment
+MANAGERPID = 3829
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-97d31417-42ff-4e5b-8064-6a321d465f8b.sock
+# environment
+LC_NAME = hu_HU.UTF-8
+# environment
+VSCODE_CWD = /home/lord
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /home/lord/.latex-workshop-docker/bin:/home/lord/.local/bin:/home/lord/.cargo/bin:/home/lord/.local/bin:/home/lord/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# makefile (from 'Makefile', line 49)
+CCADMIN = CCadmin
+# makefile (from 'nbproject/Makefile-variables.mk', line 6)
+ 
+CND_BASEDIR = `pwd`
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# environment
+SESSION_MANAGER = local/CACTUS:@/tmp/.ICE-unix/4088,unix/CACTUS:/tmp/.ICE-unix/4088
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+KICAD_PATH = /usr/share/kicad
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+VSCODE_LOG_STACK = false
+# environment
+VSCODE_CRASH_REPORTER_START_OPTIONS = {"companyName":"Microsoft","productName":"VSCode","submitURL":"appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=846cb815-19a2-4c2a-a073-a7c0cec17330&iid=846cb815-19a2-4c2a-a073-a7c0cec17330&sid=846cb815-19a2-4c2a-a073-a7c0cec17330","uploadToServer":true}
+# environment
+INVOCATION_ID = 8bfd587284314969a2c2ae1787272ed6
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 24284
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :0
+# makefile (from 'nbproject/Makefile-impl.mk', line 30)
+DEFAULTCONF = default
+# makefile (from 'nbproject/Makefile-variables.mk', line 10)
+CND_ARTIFACT_PATH_default = dist/default/production/attiny_ioexpander.X.production.hex
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /home/lord/DEV/Solar/canbrd-pico/attiny_ioexpander/attiny_ioexpander.X
+# makefile (from 'nbproject/Makefile-impl.mk', line 19)
+BUILD_SUBPROJECTS_NO = 
+# makefile (from 'nbproject/Makefile-impl.mk', line 20)
+BUILD_SUBPROJECTS = ${BUILD_SUBPROJECTS_${SUBPROJECTS}}
+# default
+.LOADED := 
+# makefile (from 'nbproject/Makefile-impl.mk', line 18)
+BUILD_SUBPROJECTS_ = .build-subprojects
+# environment
+SSH_AGENT_PID = 4020
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+HOME = /home/lord
+# environment
+VSCODE_CODE_CACHE_PATH = /home/lord/.config/Code/CachedData/f80445acd5a3dadef24aa209168452a3d97cc326
+# environment
+LOGNAME = lord
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# makefile (from 'Makefile', line 50)
+RANLIB = ranlib
+# automatic
++F = $(notdir $+)
+# environment
+ZSH = /home/lord/.oh-my-zsh
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile (from 'Makefile', line 47)
+MKDIR = mkdir
+# environment
+LC_TIME = hu_HU.UTF-8
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = ibus
+# environment
+SHLVL = 0
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = lord
+# environment
+LC_MONETARY = hu_HU.UTF-8
+# makefile
+.DEFAULT_GOAL := build
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# environment
+LIBVIRT_DEFAULT_URI = qemu:///system
+# environment
+LESS = -R
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LC_TELEPHONE = hu_HU.UTF-8
+# default
+MAKE_COMMAND := make
+# environment
+OLDPWD = /home/lord
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-61d0e19f-1.64.2-main.sock
+# makefile (from 'nbproject/Makefile-variables.mk', line 9)
+CND_ARTIFACT_NAME_default = attiny_ioexpander.X.production.hex
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+BREAKPAD_DUMP_LOCATION = /home/lord/.config/Code/exthost Crash Reports
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# environment
+LC_PAPER = hu_HU.UTF-8
+# environment
+QT_ACCESSIBILITY = 1
+# environment
+DEFAULTS_PATH = /usr/share/gconf/ubuntu.default.path
+# default
+MAKEFILES := 
+# environment
+LC_NUMERIC = hu_HU.UTF-8
+# environment
+SUMO_HOME = /usr/share/sumo
+# automatic
+<F = $(notdir $<)
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from 'nbproject/Makefile-impl.mk', line 27)
+PROJECTNAME = attiny_ioexpander.X
+# environment
+LC_MEASUREMENT = hu_HU.UTF-8
+# environment
+PAGER = less
+# environment
+LC_ALL = C
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# automatic
+^F = $(notdir $^)
+# environment
+ZEPHYR_BASE = /home/lord/SDKs/zephyrproject/zephyr
+# default
+SUFFIXES := 
+# environment
+KIGITHUB = https://github.com/KiCad
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# makefile (from 'nbproject/Makefile-variables.mk', line 8)
+CND_ARTIFACT_DIR_default = dist/default/production
+# environment
+WINDOWPATH = 2
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+LC_IDENTIFICATION = hu_HU.UTF-8
+# makefile (from 'nbproject/Makefile-impl.mk', line 17)
+SUBPROJECTS = ${SUB_${SUB}}
+# default
+.RECIPEPREFIX := 
+# environment
+PICO_SDK_PATH = /home/lord/SDKs/pico/pico-sdk
+# environment
+LC_ADDRESS = hu_HU.UTF-8
+# environment
+LANG = C
+# environment
+VSCODE_PID = 24284
+# variable set hash-table stats:
+# Load=139/1024=14%, Rehash=0, Collisions=23/176=13%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 64769, inode 23888704): 11 files, no impossibilities.
+
+# 11 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+nbproject/Makefile-variables.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-02-11 00:08:42.808927294
+#  File has been updated.
+#  Successfully updated.
+
+.clean-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: .all-post
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/8=0%
+
+.build-impl: .build-pre
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-impl.mk', line 39):
+	${MAKE} -f nbproject/Makefile-${CONF}.mk SUBPROJECTS=${SUBPROJECTS} .build-conf
+
+.all-pre:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+.build-post: .build-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-02-10 22:49:55.170197119
+#  File has been updated.
+#  Successfully updated.
+
+.depcheck-impl:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+.clobber-impl: .clobber-pre .depcheck-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-impl.mk', line 48):
+	    ${MAKE} SUBPROJECTS=${SUBPROJECTS} CONF=default clean
+
+build: .build-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clobber: .clobber-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+ 
+
+.clobber-post: .clobber-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+help: .help-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+nbproject/Makefile-impl.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-02-11 00:08:41.676902194
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.help-impl:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.build-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clean-impl: .clean-pre
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'nbproject/Makefile-impl.mk', line 44):
+	${MAKE} -f nbproject/Makefile-${CONF}.mk SUBPROJECTS=${SUBPROJECTS} .clean-conf
+
+.help-post: .help-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean: .clean-post
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clean-post: .clean-impl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.clobber-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.all-impl: .all-pre .depcheck-impl
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := .all-impl
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := .all-pre .depcheck-impl
+# automatic
+# | := 
+# automatic
+# < := .all-pre
+# automatic
+# ^ := .all-pre .depcheck-impl
+# automatic
+# ? := .all-pre .depcheck-impl
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/16=12%
+#  recipe to execute (from 'nbproject/Makefile-impl.mk', line 54):
+	    ${MAKE} SUBPROJECTS=${SUBPROJECTS} CONF=default build
+
+.all-post: .all-impl
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/8=0%
+
+.help-pre:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=26/1024=3%, Rehash=0, Collisions=0/67=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 38 / storage = 437 B / avg = 11 B
+# current buf: size = 8162 B / used = 437 B / count = 38 / avg = 11 B
+
+# strcache performance: lookups = 81 / hit rate = 53%
+# hash-table stats:
+# Load=38/8192=0%, Rehash=0, Collisions=1/81=1%
+# Finished Make data base on Fri Feb 11 11:28:37 2022
+
+ 

@@ -1,0 +1,15 @@
+{
+    "makefile.extensionOutputFolder": "./.vscode",
+    "files.associations": {
+        "system.h": "c",
+        "compiler.h": "c",
+        "stdbool.h": "c",
+        "twi0.h": "c",
+        "delay.h": "c",
+        "clock.h": "c",
+        "pins.h": "c",
+        "adc0.h": "c",
+        "vref.h": "c",
+        "interrupt.h": "c"
+    }
+}

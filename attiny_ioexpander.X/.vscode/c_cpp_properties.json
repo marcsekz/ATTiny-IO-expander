@@ -1,0 +1,23 @@
+{
+    "env": {},
+    "configurations": [
+        {
+            "name": "AVR",
+            "intelliSenseMode": "linux-clang-arm",
+            "includePath": [
+                "/opt/microchip/xc8/v2.35/avr/avr/include",
+                "/opt/microchip/mplabx/v6.00/packs/Microchip/ATtiny_DFP/2.7.128/xc8/avr/include",
+                "/opt/microchip/xc8/v2.35/avr/lib/gcc/avr/5.4.0/include"
+            ],
+            "defines": [
+                "__AVR_DEV_LIB_NAME__=tn1627",
+                "__ATtiny1627__"
+            ],
+            "compilerPath": "/opt/microchip/xc8/v2.35/bin/xc8-cc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}
